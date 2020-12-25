@@ -4,3 +4,7 @@ tags={
 }
 name="Anime World"
 supported_version="1.10.3"
+replace_path="common/countries"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"

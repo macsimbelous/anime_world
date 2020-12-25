@@ -1,0 +1,117 @@
+
+HDN = {
+	color = rgb {122  28  255}
+	color_ui = rgb { 139 20 20 }
+}
+TOB = {
+	color = rgb {180  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+F13 = {
+	color = rgb {33  76  220}
+	color_ui = rgb { 139 20 20 }
+}
+SAO = {
+	color = rgb {33  76  220}
+	color_ui = rgb { 139 20 20 }
+}
+LL1 = {
+	color = rgb {9  186  220}
+	color_ui = rgb { 139 20 20 }
+}
+GDM = {
+	color = rgb {9  186  31}
+	color_ui = rgb { 139 20 20 }
+}
+VVL = {
+	color = rgb {9  186  94}
+	color_ui = rgb { 139 20 20 }
+}
+LH0 = {
+	color = rgb {118  186  94}
+	color_ui = rgb { 139 20 20 }
+}
+OMG = {
+	color = rgb {224  186  94}
+	color_ui = rgb { 139 20 20 }
+}
+FEF = {
+	color = rgb {224  186  233}
+	color_ui = rgb { 139 20 20 }
+}
+FEA = {
+	color = rgb {224  254  233}
+	color_ui = rgb { 139 20 20 }
+}
+FET = {
+	color = rgb {245  254  233}
+	color_ui = rgb { 139 20 20 }
+}
+XNS = {
+	color = rgb {245  1  233}
+	color_ui = rgb { 139 20 20 }
+}
+XB1 = {
+	color = rgb {245  1  130}
+	color_ui = rgb { 139 20 20 }
+}
+XB2 = {
+	color = rgb {245  1  71}
+	color_ui = rgb { 139 20 20 }
+}
+XBX = {
+	color = rgb {245  1  24}
+	color_ui = rgb { 139 20 20 }
+}
+VC1 = {
+	color = rgb {245  93  24}
+	color_ui = rgb { 139 20 20 }
+}
+VC4 = {
+	color = rgb {245  152  24}
+	color_ui = rgb { 139 20 20 }
+}
+EVA = {
+	color = rgb {245  196  24}
+	color_ui = rgb { 139 20 20 }
+}
+HI3 = {
+	color = rgb {131  196  24}
+	color_ui = rgb { 139 20 20 }
+}
+GI0 = {
+	color = rgb {54  196  24}
+	color_ui = rgb { 139 20 20 }
+}
+TGL = {
+	color = rgb {1  97  24}
+	color_ui = rgb { 139 20 20 }
+}
+NAM = {
+	color = rgb {1  69  116}
+	color_ui = rgb { 139 20 20 }
+}
+KTC = {
+	color = rgb {1  114  116}
+	color_ui = rgb { 139 20 20 }
+}
+AZL = {
+	color = rgb {1  156  116}
+	color_ui = rgb { 139 20 20 }
+}
+FT0 = {
+	color = rgb {255  55  1}
+	color_ui = rgb { 139 20 20 }
+}
+FEA = {
+	color = rgb {98  230  127}
+	color_ui = rgb { 139 20 20 }
+}
+FET = {
+	color = rgb {98  230  178}
+	color_ui = rgb { 139 20 20 }
+}
+NAM = {
+	color = rgb {98  230  16}
+	color_ui = rgb { 139 20 20 }
+}
