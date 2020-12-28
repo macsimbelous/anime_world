@@ -1,0 +1,42 @@
+bookmarks = {
+	bookmark = {
+		name = "AW_book"
+		desc = "AW_desc"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "HDN"
+		default = yes
+		"HDN" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		# minors from DLC ####
+		"LL1" = {
+			minor = yes
+			history = "LL1_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		effect = {
+			randomize_weather = 22345			# <- Obligatory in every bookmark !
+		}
+	}
+}
