@@ -1,4 +1,25 @@
 ﻿division_template = {
+	name = "Anime Garrison"
+	regiments = {
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+	}
+}
+division_template = {
 	name = "Anime Infantry Division"
 	regiments = {
 		infantry = {
@@ -61,35 +82,35 @@
 units = {
 	division = {
 		name = "Anime Infantry Division"
-		location = 12979
+		location = 12068
 		division_template = "Anime Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Anime Infantry Division"
-		location = 12979
+		location = 7168
 		division_template = "Anime Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Anime Infantry Division"
-		location = 12917
+		location = 4096
 		division_template = "Anime Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Anime Infantry Division"
-		location = 10982
+		location = 11959
 		division_template = "Anime Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Anime Infantry Division"
-		location = 12916
+		location = 11914
 		division_template = "Anime Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
