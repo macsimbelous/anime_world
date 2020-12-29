@@ -12,15 +12,15 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = ATR
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = OCC
-		add_core_of = FRA
+		add_core_of = ATR
+		
 	}
 
 	provinces={

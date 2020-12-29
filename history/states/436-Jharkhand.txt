@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = SLM
+		add_core_of = SLM
 		buildings = {
 			infrastructure = 4
 		}

@@ -11,14 +11,14 @@ state={
 	}
 
 	history={
-		owner = HDN
+		owner = HLS
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 5
 		}
-		add_core_of = HDN
+		add_core_of = HLS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

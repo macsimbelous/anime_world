@@ -115,3 +115,107 @@ NAM = {
 	color = rgb {98  230  16}
 	color_ui = rgb { 139 20 20 }
 }
+HLS = {
+	color = rgb {255  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+MCR = {
+	color = rgb {245  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+GBS = {
+	color = rgb {235  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+PS5 = {
+	color = rgb {225  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+RNM = {
+	color = rgb {215  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+KMD = {
+	color = rgb {207  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+SLM = {
+	color = rgb {205  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+FMP = {
+	color = rgb {205  133  1}
+	color_ui = rgb { 139 20 20 }
+}
+CDG = {
+	color = rgb {205  133  10}
+	color_ui = rgb { 139 20 20 }
+}
+GBF = {
+	color = rgb {205  133  25}
+	color_ui = rgb { 139 20 20 }
+}
+ISA = {
+	color = rgb {205  133  50}
+	color_ui = rgb { 139 20 20 }
+}
+NGL = {
+	color = rgb {205  133  75}
+	color_ui = rgb { 139 20 20 }
+}
+OTN = {
+	color = rgb {205  133  100}
+	color_ui = rgb { 139 20 20 }
+}
+STB = {
+	color = rgb {205  133  125}
+	color_ui = rgb { 139 20 20 }
+}
+KSB = {
+	color = rgb {205  133  150}
+	color_ui = rgb { 139 20 20 }
+}
+ATR = {
+	color = rgb {205  115  150}
+	color_ui = rgb { 139 20 20 }
+}
+TMS = {
+	color = rgb {205  100  150}
+	color_ui = rgb { 139 20 20 }
+}
+DSG = {
+	color = rgb {205  85  150}
+	color_ui = rgb { 139 20 20 }
+}
+LGS = {
+	color = rgb {205  70  150}
+	color_ui = rgb { 139 20 20 }
+}
+TOX = {
+	color = rgb {205  50  150}
+	color_ui = rgb { 139 20 20 }
+}
+ARP = {
+	color = rgb {205  25  150}
+	color_ui = rgb { 139 20 20 }
+}
+AGA = {
+	color = rgb {205  1  150}
+	color_ui = rgb { 139 20 20 }
+}
+SLR = {
+	color = rgb {1  255  1}
+	color_ui = rgb { 139 20 20 }
+}
+DXD = {
+	color = rgb {1  255  25}
+	color_ui = rgb { 139 20 20 }
+}
+ICG = {
+	color = rgb {1  255  50}
+	color_ui = rgb { 139 20 20 }
+}
+IMR = {
+	color = rgb {1  255  75}
+	color_ui = rgb { 139 20 20 }
+}
