@@ -219,3 +219,23 @@ IMR = {
 	color = rgb {1  255  75}
 	color_ui = rgb { 139 20 20 }
 }
+BDC = {
+	color = rgb {1  1  127}
+	color_ui = rgb { 139 20 20 }
+}
+MSM = {
+	color = rgb {1  1  80}
+	color_ui = rgb { 139 20 20 }
+}
+MSN = {
+	color = rgb {1  1  172}
+	color_ui = rgb { 139 20 20 }
+}
+SHY = {
+	color = rgb {1  1  225}
+	color_ui = rgb { 139 20 20 }
+}
+WAT = {
+	color = rgb {1  1  47}
+	color_ui = rgb { 139 20 20 }
+}

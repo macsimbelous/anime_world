@@ -8,11 +8,11 @@ state={
 	
 
 	history={
-		owner = XB2
+		owner = ZZZ
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = XB2
+		add_core_of = ZZZ
 	}
 
 	provinces={
