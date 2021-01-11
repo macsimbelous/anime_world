@@ -175,10 +175,6 @@ KSB = {
 	color = rgb {205  133  150}
 	color_ui = rgb { 139 20 20 }
 }
-ATR = {
-	color = rgb {205  115  150}
-	color_ui = rgb { 139 20 20 }
-}
 TMS = {
 	color = rgb {205  100  150}
 	color_ui = rgb { 139 20 20 }
@@ -237,5 +233,53 @@ SHY = {
 }
 WAT = {
 	color = rgb {1  1  47}
+	color_ui = rgb { 139 20 20 }
+}
+HSD = {
+	color = rgb {255  255  1}
+	color_ui = rgb { 139 20 20 }
+}
+MRO = {
+	color = rgb {255  255  23}
+	color_ui = rgb { 139 20 20 }
+}
+ZZZ = {
+	color = rgb {255  255  49}
+	color_ui = rgb { 139 20 20 }
+}
+TMN = {
+	color = rgb {255  255  77}
+	color_ui = rgb { 139 20 20 }
+}
+PCP = {
+	color = rgb {255  255  99}
+	color_ui = rgb { 139 20 20 }
+}
+AEL = {
+	color = rgb {255  255  130}
+	color_ui = rgb { 139 20 20 }
+}
+SNH = {
+	color = rgb {255  255  161}
+	color_ui = rgb { 139 20 20 }
+}
+ALR = {
+	color = rgb {255  255  192}
+	color_ui = rgb { 139 20 20 }
+}
+STW = {
+	color = rgb {255  255  216}
+	color_ui = rgb { 139 20 20 }
+}
+TTT = {
+	color = rgb {255  255  243}
+	color_ui = rgb { 139 20 20 }
+}
+ZNT = {
+	color = rgb {255  255  255}
+	color_ui = rgb { 139 20 20 }
+}
+DGD = {
+	color = rgb {225  225  255}
 	color_ui = rgb { 139 20 20 }
 }
