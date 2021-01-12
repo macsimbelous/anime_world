@@ -6,8 +6,8 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = USA
-		add_core_of = GUM
+		owner = HSF
+		add_core_of = HSF
 		buildings = {
 			infrastructure = 5
 			12140 = {
