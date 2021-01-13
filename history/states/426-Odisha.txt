@@ -13,7 +13,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = DNT
+		add_core_of = DNT
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

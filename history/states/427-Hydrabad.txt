@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = DNT
+		add_core_of = DNT
 		victory_points = {
 			8087 1
 		}

@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = UWM
+		add_core_of = UWM
 		buildings = {
 			infrastructure = 3
 			1355 = {

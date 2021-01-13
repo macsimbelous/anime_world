@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = GBF
+		add_core_of = GBF
 		buildings = {
 			infrastructure = 3
 			13002 = {
