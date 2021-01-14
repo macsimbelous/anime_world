@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = FZG
+		add_core_of = FZG
 		buildings = {
 			infrastructure = 1
 		}

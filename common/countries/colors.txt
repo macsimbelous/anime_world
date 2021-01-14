@@ -399,3 +399,71 @@ VC3 = {
 	color = rgb {128  255  89}
 	color_ui = rgb { 139 20 20 }
 }
+ALA = {
+	color = rgb {255  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+ALD = {
+	color = rgb {227  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+ALS = {
+	color = rgb {193  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+DNM = {
+	color = rgb {143  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+FEE = {
+	color = rgb {83  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+FGO = {
+	color = rgb {44  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+FSN = {
+	color = rgb {17  205  71}
+	color_ui = rgb { 139 20 20 }
+}
+FTA = {
+	color = rgb {1  205  9}
+	color_ui = rgb { 139 20 20 }
+}
+FTI = {
+	color = rgb {255  4  104}
+	color_ui = rgb { 139 20 20 }
+}
+FZG = {
+	color = rgb {158  47  206}
+	color_ui = rgb { 139 20 20 }
+}
+HMS = {
+	color = rgb {158  121  206}
+	color_ui = rgb { 139 20 20 }
+}
+IUD = {
+	color = rgb {158  121  76}
+	color_ui = rgb { 139 20 20 }
+}
+MAI = {
+	color = rgb {158  121  191}
+	color_ui = rgb { 139 20 20 }
+}
+MMY = {
+	color = rgb {55  121  191}
+	color_ui = rgb { 139 20 20 }
+}
+NOA = {
+	color = rgb {106  121  191}
+	color_ui = rgb { 139 20 20 }
+}
+STO = {
+	color = rgb {151  121  191}
+	color_ui = rgb { 139 20 20 }
+}
+YNO = {
+	color = rgb {216  121  191}
+	color_ui = rgb { 139 20 20 }
+}

@@ -3,16 +3,16 @@ state={
 	name="STATE_585"
 
 	history={
-		add_core_of = UZB
+		add_core_of = STO
 		victory_points = {
 			1614 1
 		}
-		owner = SOV
+		owner = STO
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
+		
 
 	}
 
