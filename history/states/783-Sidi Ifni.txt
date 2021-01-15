@@ -11,8 +11,8 @@ state={
 			12857 1
 		}
 
-		owner = SPR
-		add_core_of = MOR
+		owner = GAT
+		add_core_of = GAT
 		buildings = {
 			infrastructure = 1
 			12857 = {

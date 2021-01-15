@@ -519,3 +519,15 @@ SNM = {
 	color = rgb {241  118  1}
 	color_ui = rgb { 139 20 20 }
 }
+DGB = {
+	color = rgb {127  153  127}
+	color_ui = rgb { 139 20 20 }
+}
+DOA = {
+	color = rgb {81  153  127}
+	color_ui = rgb { 139 20 20 }
+}
+TOA = {
+	color = rgb {81  86  127}
+	color_ui = rgb { 139 20 20 }
+}

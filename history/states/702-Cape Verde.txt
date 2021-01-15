@@ -6,7 +6,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = POR
+		owner = GAT
+		add_core_of = GAT
 		buildings = {
 			infrastructure = 3
 			13014 ={

@@ -7,7 +7,8 @@ state=
 	
 	history=
 	{
-		owner = USA
+		owner = MMY
+		add_core_of = MMY
 		victory_points = {
 			13067 1 
 		}

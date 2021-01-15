@@ -5,7 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = TMN
+		add_core_of = TMN
 		victory_points = {
 			13010 1
 		}

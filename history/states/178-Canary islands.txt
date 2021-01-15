@@ -7,7 +7,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = XXX
+		owner = GAT
+		add_core_of = GAT
 		victory_points = {
 			13071 1
 		}
@@ -17,7 +18,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = XXX
+		
 	}
 
 	provinces={
