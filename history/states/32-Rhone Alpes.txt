@@ -12,14 +12,14 @@ state={
 	}
 
 	history={
-		owner = ATR
+		owner = SDK
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = ATR
+		add_core_of = SDK
 		
 	}
 

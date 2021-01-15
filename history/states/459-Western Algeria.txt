@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = FRA
-		add_core_of = ALG
+		owner = GAT
+		add_core_of = GAT
 
 		victory_points = {
 			1145 5 

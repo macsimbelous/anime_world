@@ -467,3 +467,55 @@ YNO = {
 	color = rgb {216  121  191}
 	color_ui = rgb { 139 20 20 }
 }
+FRA = {
+	color = rgb {62  1  127}
+	color_ui = rgb { 139 20 20 }
+}
+ACW = {
+	color = rgb {62  1  127}
+	color_ui = rgb { 139 20 20 }
+}
+GAT = {
+	color = rgb {62  1  155}
+	color_ui = rgb { 139 20 20 }
+}
+IMS = {
+	color = rgb {62  1  21}
+	color_ui = rgb { 139 20 20 }
+}
+IUC = {
+	color = rgb {62  1  189}
+	color_ui = rgb { 139 20 20 }
+}
+LHZ = {
+	color = rgb {62  1  227}
+	color_ui = rgb { 139 20 20 }
+}
+MSR = {
+	color = rgb {62  1  255}
+	color_ui = rgb { 139 20 20 }
+}
+OTK = {
+	color = rgb {62  1  66}
+	color_ui = rgb { 139 20 20 }
+}
+OVL = {
+	color = rgb {62  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+REC = {
+	color = rgb {62  55  1}
+	color_ui = rgb { 139 20 20 }
+}
+SDK = {
+	color = rgb {62  85  1}
+	color_ui = rgb { 139 20 20 }
+}
+SMT = {
+	color = rgb {62  118  1}
+	color_ui = rgb { 139 20 20 }
+}
+SNM = {
+	color = rgb {241  118  1}
+	color_ui = rgb { 139 20 20 }
+}

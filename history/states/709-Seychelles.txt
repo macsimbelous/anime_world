@@ -7,7 +7,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = IMS
+		add_core_of = IMS
 		buildings = {
 			infrastructure = 3
 			2188 = {

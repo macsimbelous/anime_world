@@ -9,11 +9,11 @@ state={
 
 
 	history={
-		owner = SOV
+		owner = TOX
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = SOV
+		add_core_of = TOX
 		victory_points = {
 			9258 3
 		}

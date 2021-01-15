@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = NOA
+		add_core_of = NOA
 		buildings = {
 			infrastructure = 3
 			13019 = {

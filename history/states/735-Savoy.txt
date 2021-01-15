@@ -5,8 +5,8 @@ state={
 	state_category = town
 
 	history={
-		owner = ATR
-		add_core_of = ATR
+		owner = SDK
+		add_core_of = SDK
 		
 		victory_points = {
 			778 1 

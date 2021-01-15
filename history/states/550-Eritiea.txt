@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = ITA
-		add_core_of = ERI
+		owner = IMS
+		add_core_of = IMS
 		victory_points = {
 			12766 1
 		}

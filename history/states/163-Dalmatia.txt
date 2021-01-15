@@ -7,16 +7,15 @@ state=
 	state_category = enclave
 	
 	history={
-		owner = ITA
+		owner = ACW
 		buildings = {
 			infrastructure = 5
 			3943 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = YUG
-		add_core_of = CRO
-		start_resistance = CRO #Yugoslavia shouldn't resist occupation
+		add_core_of = ACW
+
 	} 
 	provinces={	
 		3943 

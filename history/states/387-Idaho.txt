@@ -13,11 +13,11 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = OTK
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = USA
+		add_core_of = OTK
 		victory_points = {
 			9616 1
 		}
