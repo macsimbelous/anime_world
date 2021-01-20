@@ -20,7 +20,7 @@ news_event = {
 	immediate = {
 		if = {
 			limit = {
-				tag = ITA
+				#tag = ITA
 				has_government = fascism
 				FROM = { state = 378 }
 			}
@@ -157,7 +157,7 @@ news_event = {
 	trigger = {
 		FROM.FROM = {
 			state = 64
-			is_owned_by = GER
+			#is_owned_by = GER
 		}
 	}
 
@@ -403,19 +403,7 @@ news_event = {
 
 	option = {
 		name = nuke_dropped.12.a
-		trigger = {
-			OR = {
-				AND = {
-					tag = SWE
-					NOT = { has_war_with = DEN }
-				}
-				AND = {
-					NOT = { owns_state = 39 }
-					NOT = { tag = SWE }
-					NOT = { has_war_with = DEN }
-				}
-			}
-		}		
+		
 	}
 	
 	option = {
@@ -429,8 +417,7 @@ news_event = {
 		name = nuke_dropped.12.c
 		trigger = {
 			NOT = { owns_state = 39 }
-			tag = SWE
-			has_war_with = DEN
+
 		}
 	}
 }

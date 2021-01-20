@@ -2,13 +2,13 @@
 state={
 	id=113
 	name="STATE_113" # Leinster
-	manpower = 1357600
+	manpower = 5357600
 	resources={
-		aluminium=0 # was: 2
-		steel=2 # was: 3
+		aluminium=9 # was: 2
+		steel=37 # was: 3
 	}
 	
-	state_category = city
+	state_category = large_city
 	
 	history={
 		owner = HDN
@@ -17,9 +17,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 5
+			dockyard = 3
 			11293 = {
 				naval_base = 6
 			}

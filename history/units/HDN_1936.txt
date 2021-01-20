@@ -78,6 +78,31 @@ division_template = {
 		}
 	}
 }
+division_template = {
+	name = "Anime Infantry Brigada"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+	}
+}
 
 units = {
 	division = {
@@ -116,7 +141,23 @@ units = {
 		start_equipment_factor = 1.0
 	}
 }
-
+air_wings = {
+	### RAF Fighter Command ###
+	113 = { 
+		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "HDN" 
+			amount = 200
+		}
+	}
+	119 = { 
+		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "HDN" 
+			amount = 100
+		}
+	}
+}
 ###starting production###
 instant_effect = {
 	add_equipment_production = {
@@ -145,6 +186,25 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.5
 		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "HDN" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "HDN" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_equipment_1

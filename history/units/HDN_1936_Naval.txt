@@ -1,0 +1,73 @@
+units = {
+	fleet = {
+		name = "Home Command"
+		naval_base = 11293 # Sierra Leone
+		task_force = {				
+			name = "1rd Fleet"
+			location = 11293  # Bermuda
+			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }
+			ship = { name = "HMS York" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }	
+			ship = { name = "HMS Orion" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }
+		}				
+		task_force = {				
+			name = "2rd Fleet"
+			location = 11293 # Sierra Leone
+			ship = { name = "HMS Neptune" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }	
+			ship = { name = "HMS Dauntless" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class"} } }
+			# Destroyer Division 4
+			ship = { name = "HMS Vansittart" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HDN version_name = "V/W Class"} } }	
+			ship = { name = "HMS Venomous" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HDN version_name = "V/W Class"} } }	
+			ship = { name = "HMS Wivern" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = HDN version_name = "V/W Class"} } }	
+		}
+		task_force = {				
+			name = "1rd Squadron"
+			location = 11293 # Falkland Is.
+			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }		
+			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }
+			ship = { name = "HMS Ajax" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HDN version_name = "Emerald Class" } } }	
+		}				
+		task_force = {				
+			name = "1rd Submarine Flotilla"			
+			location = 3379 # Sierra Leone
+			# Submarine Division 71
+			ship = { name = "HMS Severn" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HDN version_name = "O/P/R Class" } } }		
+			ship = { name = "HMS Clyde" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HDN version_name = "O/P/R Class" } } }
+			ship = { name = "HMS PC" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HDN version_name = "O/P/R Class" } } }		
+			ship = { name = "HMS Noir" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HDN version_name = "O/P/R Class" } } }		
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "HDN" 
+			version_name = "O/P/R Class"
+		}
+		name = "HMS Seawolf"
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "HDN" 
+			version_name = "Emerald Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "HDN" 
+			version_name = "V/W Class"
+		}
+		name = "HMS Garland"
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+}
