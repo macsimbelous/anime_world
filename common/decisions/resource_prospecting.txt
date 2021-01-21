@@ -255,7 +255,7 @@ prospect_for_resources = {
 		icon = aluminium
 
 		allowed = {
-			NOT = { tag = MAN }
+			
 		}
 
 		available = {
