@@ -392,7 +392,7 @@ leader_traits = {
 		random = no
 		ai_strategy = {
 			type = antagonize
-			id = "GER"			
+			id = "FEF"			
 			value = 200
 		}
 		
@@ -1125,7 +1125,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.05
 		targeted_modifier = {
-			tag = SOV
+			tag = MMY
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
@@ -1223,7 +1223,7 @@ leader_traits = {
 		random = no
 		ai_strategy = {
 			type = befriend
-			id = "TUR"			
+			id = "FEF"			
 			value = 50
 		}
 		
@@ -1984,11 +1984,7 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = HUN
-				not = { has_completed_focus = HUN_invite_the_habsburg_prince }
-				factor = 0
-			}
+		
 		}
 	}
 	

@@ -20,7 +20,7 @@ bookmarks = {
 		}
 		"F13" = {
 			history = "HDN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 				free_trade
 				volunteer_only
@@ -32,7 +32,7 @@ bookmarks = {
 		}
 		"MMY" = {
 			history = "HDN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 				free_trade
 				volunteer_only
