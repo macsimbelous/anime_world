@@ -798,6 +798,7 @@ ideas = {
 			available = {
 				always = yes
 			}
+			picture = aw_generic_communist_revolutionary_female
 			traits = {
 				communist_revolutionary
 			}
@@ -825,6 +826,7 @@ ideas = {
 			available = {
 				always = yes
 			}
+			picture = aw_generic_democratic_reformer_female
 			traits = {
 				democratic_reformer
 			}
@@ -852,6 +854,7 @@ ideas = {
 			available = {
 				always = yes
 			}
+			picture = aw_generic_fascist_demagogue_female
 			traits = {
 				fascist_demagogue
 			}
@@ -891,6 +894,7 @@ ideas = {
 			available = {
 				has_intelligence_agency = yes
 			}
+			picture = aw_generic_head_of_intelligence_female
 			traits = {
 				head_of_intelligence
 			}
@@ -1132,6 +1136,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_captain_of_industry_female
 			traits = {
 				captain_of_industry
 			}
@@ -1140,6 +1145,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_fortification_engineer_female
 			traits = {
 				fortification_engineer
 			}
@@ -1148,6 +1154,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_war_industrialist_female
 			traits = {
 				war_industrialist
 			}
@@ -1158,6 +1165,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_army_chief_off_female
 			traits = {
 				army_chief_offensive_1
 			}
@@ -1166,6 +1174,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_army_chief_def_female
 			traits = {
 				army_chief_defensive_1
 			}
@@ -1176,6 +1185,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_navy_chief_decisive_bat_female
 			traits = {
 				navy_chief_decisive_battle_2
 			}
@@ -1184,6 +1194,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_navy_anti_submarine_female
 			traits = {
 				navy_anti_submarine_2
 			}
@@ -1194,6 +1205,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_air_close_air_sup_female
 			traits = {
 				air_close_air_support_2
 			}
@@ -1202,6 +1214,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_air_chief_all_weather_female
 			traits = {
 				air_chief_all_weather_2
 			}
@@ -1213,6 +1226,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_army_art_female
 			traits = {
 				army_artillery_1
 			}
@@ -1222,6 +1236,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_army_log_female
 			traits = {
 				army_logistics_2
 			}
@@ -1231,6 +1246,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_navy_fleet_log_female
 			traits = {
 				navy_fleet_logistics_1
 			}
@@ -1240,6 +1256,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
+			picture = aw_generic_air_air_combat_trainer_female
 			traits = {
 				air_air_combat_training_2
 			}
@@ -1254,6 +1271,7 @@ ideas = {
 			research_bonus = {
 				land_doctrine = 0.1
 			}
+			picture = aw_generic_military_theorist_female
 			traits = {
 				military_theorist
 			}
@@ -1266,6 +1284,7 @@ ideas = {
 			research_bonus = {
 				naval_doctrine = 0.1
 			}
+			picture = aw_generic_naval_theorist_female
 			traits = {
 				naval_theorist
 			}
@@ -1278,6 +1297,7 @@ ideas = {
 			research_bonus = {
 				air_doctrine = 0.1
 			}
+			picture = aw_generic_air_warfare_theorist_female
 			traits = {
 				air_warfare_theorist
 			}

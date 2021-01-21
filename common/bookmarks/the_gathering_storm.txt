@@ -18,6 +18,30 @@ bookmarks = {
 				
 			}
 		}
+		"F13" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"MMY" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
 		"---" = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
