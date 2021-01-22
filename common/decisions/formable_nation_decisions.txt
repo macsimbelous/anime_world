@@ -172,7 +172,7 @@ form_european_union_category = {
 				has_dlc = "Waking the Tiger"
 				has_dlc = "Man the Guns"
 			}
-			always = no
+			#always = no
 		}
 		available = {
 			is_subject = no

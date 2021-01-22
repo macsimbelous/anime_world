@@ -474,38 +474,9 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
 
-			modifier = {
-				factor = 10
-				tag = GER
+			
 
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ITA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
 			modifier = {
 				factor = 2
@@ -1048,10 +1019,7 @@ technologies = {
 				date > "1942.1.1"
 			}
 
-			modifier = {
-				factor = 2
-				tag = GER
-			}
+
 		}
 	}
 	

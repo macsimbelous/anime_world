@@ -1,0 +1,61 @@
+form_greater_final_fantasy_xiii_reich_category = {
+	form_greater_final_fantasy_xiii_reich = {
+		icon = generic_form_nation
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+		available = {
+			is_subject = no
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
+			# FF13
+			custom_trigger_tooltip = {
+				tooltip = form_eu_netherlands_required_states_tt
+				controls_state = 793
+				controls_state = 168
+				controls_state = 167
+			}
+		}
+		visible = {
+			AND = {
+				has_government = fascism
+				has_country_leader = {
+					ruling_only = yes
+					name = "Lightning"
+				}
+			}
+			NOT = {
+				has_global_flag = form_greater_final_fantasy_xiii_reich_flag
+			}
+
+		}
+		complete_effect = {
+			set_cosmetic_tag = F13_greater_final_fantasy_xiii_reich
+			set_province_name = {
+				id = 3945
+				name = "Greater Final Fantasy XIII Reich"
+			}
+			hidden_effect = {
+				set_global_flag = form_greater_final_fantasy_xiii_reich_flag
+			}
+			# FF13
+			custom_effect_tooltip = form_eu_netherlands_coring_states_tt
+			hidden_effect = {
+				793 = {
+					add_core_of = ROOT
+				}
+				167 = {
+					add_core_of = ROOT
+				}
+				168 = {
+					add_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 200
+
+		}
+	}
+}

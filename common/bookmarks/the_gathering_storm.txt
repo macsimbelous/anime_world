@@ -97,7 +97,20 @@ bookmarks = {
 		"LL1" = {
 			minor = yes
 			history = "LL1_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"TOX" = {
+			minor = yes
+			history = "LL1_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
 				free_trade
 				volunteer_only

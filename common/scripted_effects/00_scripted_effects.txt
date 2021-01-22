@@ -337,7 +337,7 @@ civil_war_anti_exploiter_punitive_action = {
 		division_template = {
 			name = "Anti-Exploit Punitive Brigade"
 			priority = 1
-			division_names_group = ENG_MAR_01
+			division_names_group = HDN_MAR_01
 			is_locked = yes
 			regiments = {
 				infantry = { x = 0 y = 0 }
@@ -571,30 +571,14 @@ remove_fascist_spirits_effect = {
 		limit = { has_idea = fascist_influence }
 		remove_ideas = fascist_influence
 	}
-	if = {
-		limit = { has_idea = american_influence_drift_fascism }
-		remove_ideas = american_influence_drift_fascism
-	}
-	if = {
-		limit = { has_idea = GER_align_hungary }
-		remove_ideas = GER_align_hungary
-	}
-	if = {
-		limit = { has_idea = GER_align_romania }
-		remove_ideas = GER_align_romania
-	}
+
+
 }
 
 #Should remove any and all communist foreign influence
 remove_communist_spirits_effect = {
-	if = {
-		limit = { has_idea = american_influence_drift_communism }
-		remove_ideas = american_influence_drift_communism
-	}
-	if = {
-		limit = { has_idea = comintern_influence }
-		remove_ideas = comintern_influence
-	}
+
+
 
 }
 
