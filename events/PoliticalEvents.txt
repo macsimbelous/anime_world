@@ -15,7 +15,7 @@ country_event = {
 		NOT = { has_government = communism }
 		communism > 0.6
 		NOT = { communism > 0.7 }
-		check_has_focus_tree_to_switch_to_communism = yes
+		#check_has_focus_tree_to_switch_to_communism = yes
 
 
 	}
@@ -305,7 +305,7 @@ country_event = {
 		NOT = { has_government = fascism }
 		fascism > 0.6
 		NOT = { fascism > 0.7 }
-		check_has_focus_tree_to_switch_to_fascism = yes
+		#check_has_focus_tree_to_switch_to_fascism = yes
 
 
 
@@ -640,7 +640,7 @@ country_event = {
 		NOT = { has_government = democratic }
 		democratic > 0.6
 		NOT = { democratic > 0.7 }
-		check_has_focus_tree_to_switch_to_democratic = yes
+		#check_has_focus_tree_to_switch_to_democratic = yes
 
 	}
 
@@ -987,7 +987,7 @@ country_event = {
 		#has_idea = fascist_revolutionaries
 		NOT = { has_government = fascism }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_fascism = yes
+		#check_has_focus_tree_to_switch_to_fascism = yes
 
 	}
 
@@ -1075,7 +1075,7 @@ country_event = {
 		#Special case CHI PRC
 
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_communism = yes
+		#check_has_focus_tree_to_switch_to_communism = yes
 
 	}
 
@@ -1162,7 +1162,7 @@ country_event = {
 		#Special case CHI PRC
 		NOT = { has_government = democratic }
 		has_civil_war = no
-		check_has_focus_tree_to_switch_to_democratic = yes
+		#check_has_focus_tree_to_switch_to_democratic = yes
 
 	}
 

@@ -42,6 +42,54 @@ bookmarks = {
 				
 			}
 		}
+		"MRO" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"TMN" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"TOB" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"ARP" = {
+			history = "HDN_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
 		"---" = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

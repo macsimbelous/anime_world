@@ -15,7 +15,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 		
 		fire_only_once = yes
@@ -45,7 +45,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 
 		cancel_trigger = {
@@ -82,7 +82,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 
 		cancel_trigger = {
@@ -145,7 +145,7 @@ fascism_on_the_rise = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 	
 		fire_only_once = yes
@@ -179,7 +179,7 @@ fascism_on_the_rise = {
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 			any_army_leader = {
 				is_field_marshal = yes
 				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
@@ -217,7 +217,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 	
 		fire_only_once = no
@@ -254,7 +254,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 	
 		fire_only_once = yes
@@ -288,7 +288,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 			check_variable = { num_owned_states = 1 }
 		}
 	
@@ -323,7 +323,7 @@ fascism_on_the_rise = {
 				has_idea_with_trait = syncretic_revanchist
 			}
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 			check_variable = { num_owned_states > 1 }
 		}
 	
@@ -442,7 +442,7 @@ fascism_on_the_rise = {
 			}
 			NOT = { has_country_flag = open_up_political_discourse_fascism }
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 		
 		remove_trigger = {
@@ -480,7 +480,7 @@ fascism_on_the_rise = {
 		visible = {
 			has_country_flag = open_up_political_discourse_fascism
 			NOT = { has_government = fascism }
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 		
 		remove_trigger = {
@@ -541,7 +541,7 @@ fascism_on_the_rise = {
 				fascism > 0.6
 				has_country_flag = open_up_political_discourse_fascism
 			}
-			check_has_focus_tree_to_switch_to_fascism = yes
+			#check_has_focus_tree_to_switch_to_fascism = yes
 		}
 		
 		remove_trigger = {
@@ -583,7 +583,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		fire_only_once = yes
@@ -613,7 +613,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 
 		cancel_trigger = {
@@ -650,7 +650,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 
 		cancel_trigger = {
@@ -713,7 +713,7 @@ democratic_on_the_rise = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
 		fire_only_once = yes
@@ -748,7 +748,7 @@ democratic_on_the_rise = {
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 			any_army_leader = {
 				is_field_marshal = yes
 				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
@@ -786,7 +786,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
 		fire_only_once = no
@@ -823,7 +823,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 	
 		fire_only_once = yes
@@ -857,7 +857,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 			check_variable = { num_owned_states = 1 }
 		}
 	
@@ -892,7 +892,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 			check_variable = { num_owned_states > 1 }
 		}
 	
@@ -1009,7 +1009,7 @@ democratic_on_the_rise = {
 				has_idea_with_trait = social_reformer
 			}
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
@@ -1047,7 +1047,7 @@ democratic_on_the_rise = {
 		visible = {
 			has_country_flag = open_up_political_discourse_democratic
 			NOT = { has_government = democratic }
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
@@ -1108,7 +1108,7 @@ democratic_on_the_rise = {
 				democratic > 0.6
 				has_country_flag = open_up_political_discourse_democratic
 			}
-			check_has_focus_tree_to_switch_to_democratic = yes
+			#check_has_focus_tree_to_switch_to_democratic = yes
 		}
 		
 		remove_trigger = {
@@ -1150,7 +1150,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 		
 		fire_only_once = yes
@@ -1180,7 +1180,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 
 		cancel_trigger = {
@@ -1217,7 +1217,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 
 		cancel_trigger = {
@@ -1280,7 +1280,7 @@ communism_on_the_rise = {
 				is_field_marshal = no
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 	
 		fire_only_once = yes
@@ -1315,7 +1315,7 @@ communism_on_the_rise = {
 			any_army_leader = {
 				NOT = { has_trait = hidden_sympathies }
 			}
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 			any_army_leader = {
 				is_field_marshal = yes
 				NOT = { has_unit_leader_flag = hidden_sympathies_marshal }
@@ -1353,7 +1353,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 	
 		fire_only_once = no
@@ -1390,7 +1390,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 	
 		fire_only_once = yes
@@ -1424,7 +1424,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 			check_variable = { num_owned_states = 1 }
 		}
 	
@@ -1459,7 +1459,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 			check_variable = { num_owned_states > 1 }
 		}
 	
@@ -1576,7 +1576,7 @@ communism_on_the_rise = {
 				has_idea_with_trait = ambitious_union_boss
 			}
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 		
 		remove_trigger = {
@@ -1614,7 +1614,7 @@ communism_on_the_rise = {
 		visible = {
 			has_country_flag = open_up_political_discourse_communist
 			NOT = { has_government = communism }
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 		
 		remove_trigger = {
@@ -1675,7 +1675,7 @@ communism_on_the_rise = {
 				communism > 0.6
 				has_country_flag = open_up_political_discourse_communist
 			}
-			check_has_focus_tree_to_switch_to_communism = yes
+			#check_has_focus_tree_to_switch_to_communism = yes
 		}
 		
 		remove_trigger = {

@@ -4,7 +4,7 @@ state={
 	name="STATE_167"
 	manpower = 2979294
 	
-	state_category = large_town
+	state_category = megalopolis
 
 	history={
 		owner = F13
