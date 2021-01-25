@@ -9,16 +9,26 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 20
+	communism = 15
+	democratic = 25
+	neutrality = 40
 }
-
+create_country_leader = {
+	name = "Aika Sumeragi"
+	desc = "Aika_Sumeragi_desc"
+	picture = "Portrait_Aika_Sumeragi.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		head_of_intelligence
+		mastermind_code_cracker
+	}
+}
 
