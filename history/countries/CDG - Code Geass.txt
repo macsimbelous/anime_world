@@ -20,5 +20,14 @@ set_popularities = {
 	democratic = 20
 	neutrality = 10
 }
-
+create_country_leader = {
+	name = "Lelouch Lamperouge"
+	desc = "Lelouch_Lamperouge_desc"
+	picture = "Portrait_Lelouch_Lamperouge.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+	}
+}
 

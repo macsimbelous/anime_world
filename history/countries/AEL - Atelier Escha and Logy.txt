@@ -20,14 +20,5 @@ set_popularities = {
 	democratic = 65
 	neutrality = 10
 }
-create_country_leader = {
-	name = "Escha Malier"
-	desc = "Escha_Malier_desc"
-	picture = "Portrait_Escha_Malier.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		liberal_democratic_paragon
-	}
-}
+
 

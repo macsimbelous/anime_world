@@ -17,8 +17,17 @@ set_politics = {
 set_popularities = {
 	fascism = 5
 	communism = 20
-	democratic = 65
-	neutrality = 10
+	democratic = 10
+	neutrality = 65
 }
-
+create_country_leader = {
+	name = "Gokuu Son"
+	desc = "Gokuu_Son_desc"
+	picture = "Portrait_Gokuu_Son.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		silent_mule
+	}
+}
 

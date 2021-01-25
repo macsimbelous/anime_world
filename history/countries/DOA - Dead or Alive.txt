@@ -17,8 +17,17 @@ set_politics = {
 set_popularities = {
 	fascism = 5
 	communism = 20
-	democratic = 65
-	neutrality = 10
+	democratic = 10
+	neutrality = 65
 }
-
+create_country_leader = {
+	name = "Kasumi"
+	desc = "Kasumi_desc"
+	picture = "Portrait_Kasumi.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		great_war_hero
+	}
+}
 

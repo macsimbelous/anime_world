@@ -15,10 +15,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 85
+	communism = 13
+	democratic = 1
+	neutrality = 1
 }
-
+create_country_leader = {
+	name = "Laharl"
+	desc = "Laharl_desc"
+	picture = "Portrait_Laharl.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		dictator
+		warmonger
+		autocratic_imperialist
+	}
+}
 
