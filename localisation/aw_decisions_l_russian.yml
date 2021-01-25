@@ -1,0 +1,18 @@
+﻿l_russian:
+#
+form_greater_final_fantasy_xiii_reich_category:0 "Greater Final Fantasy XIII Reich"
+form_greater_final_fantasy_xiii_reich_category_desc:0 "Создание Greater Final Fantasy XIII Reich"
+form_greater_final_fantasy_xiii_reich.t:0 "Провозгласить Greater Final Fantasy XIII Reich"
+form_greater_final_fantasy_xiii_reich.t_desc:0 "Провозгласить Greater Final Fantasy XIII Reich"
+form_gff13r_ff10_required_states_tt:0 "Контролировать все территории §Y[F10.GetName]§! в Европе.\n"
+form_gff13r_ff7_required_states_tt:0 "Контролировать все территории §Y[FF7.GetName]§! в Европе.\n"
+form_gff13r_ff12_required_states_tt:0 "Контролировать все территории §Y[F12.GetName]§! в Европе.\n"
+form_gff13r_ff8_required_states_tt:0 "Контролировать все территории §Y[FF8.GetName]§! в Европе.\n"
+form_gff13r_ff9_required_states_tt:0 "Контролировать все территории §Y[FF9.GetName]§! в Европе.\n"
+form_gff13r_ff15_required_states_tt:0 "Контролировать все территории §Y[F15.GetName]§! в Европе.\n"
+form_gff13r_ff10_coring_states_tt:0 "Все территории §Y[F10.GetName]§! в Европе становятся национальными.\n"
+form_gff13r_ff7_coring_states_tt:0 "Все территории §Y[FF7.GetName]§! в Европе становятся национальными.\n"
+form_gff13r_ff12_coring_states_tt:0 "Все территории §Y[F12.GetName]§! в Европе становятся национальными.\n"
+form_gff13r_ff8_coring_states_tt:0 "Все территории §Y[FF8.GetName]§! в Европе становятся национальными.\n"
+form_gff13r_ff9_coring_states_tt:0 "Все территории §Y[FF9.GetName]§! в Европе становятся национальными.\n"
+form_gff13r_ff15_coring_states_tt:0 "Все территории §Y[F15.GetName]§! в Европе становятся национальными.\n"

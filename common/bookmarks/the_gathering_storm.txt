@@ -96,7 +96,7 @@ bookmarks = {
 		# minors from DLC ####
 		"LL1" = {
 			minor = yes
-			history = "LL1_GATHERING_STORM_DESC"
+			history = "POL_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				free_trade
@@ -109,7 +109,7 @@ bookmarks = {
 		}
 		"TOX" = {
 			minor = yes
-			history = "LL1_GATHERING_STORM_DESC"
+			history = "POL_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				free_trade
