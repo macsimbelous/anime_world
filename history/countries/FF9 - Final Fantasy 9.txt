@@ -9,10 +9,10 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	fascism = 5
@@ -20,5 +20,14 @@ set_popularities = {
 	democratic = 65
 	neutrality = 10
 }
+create_country_leader = {
+	name = "Zidane Tribal"
+	desc = "Zidane_Tribal_desc"
+	picture = "Portrait_Zidane_Tribal.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
 
+	}
+}
 
