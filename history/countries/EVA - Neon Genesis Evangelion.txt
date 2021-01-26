@@ -9,16 +9,63 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 30
+	communism = 10
+	democratic = 40
+	neutrality = 20
 }
-
+create_country_leader = {
+	name = "Shinji Ikari"
+	desc = "Shinji_Ikari_desc"
+	picture = "Portrait_Shinji_Ikari.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+		snuggler
+		
+	}
+}
+create_country_leader = {
+	name = "Asuka Langley Souryuu"
+	desc = "Asuka_Langley_Souryuu_desc"
+	picture = "Portrait_Asuka_Langley_Souryuu.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		dictator
+		warmonger
+		generallissimo
+	}
+}
+create_country_leader = {
+	name = "Misato Katsuragi"
+	desc = "Misato_Katsuragi_desc"
+	picture = "Portrait_Misato_Katsuragi.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		silent_workhorse
+		comintern_workhorse
+		quartermaster_general
+	}
+}
+create_country_leader = {
+	name = "Rei Ayanami"
+	desc = "Rei_Ayanami_desc"
+	picture = "Portrait_Rei_Ayanami.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		
+		snuggler
+		
+	}
+}
 

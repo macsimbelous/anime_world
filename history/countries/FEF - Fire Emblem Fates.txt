@@ -15,10 +15,23 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 70
-	communism = 24
+	fascism = 65
+	communism = 20
 	democratic = 5
-	neutrality = 1
+	neutrality = 10
+}
+#leaders
+create_country_leader = {
+	name = "Corrin"
+	desc = "Corrin_desc"
+	picture = "Portrait_Corrin.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		army_chief_offensive_1
+		warmonger
+		autocratic_imperialist
+	}
 }
 
 

@@ -15,10 +15,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
+	fascism = 65
 	communism = 20
-	democratic = 65
-	neutrality = 10
+	democratic = 10
+	neutrality = 5
+}
+create_country_leader = {
+	name = "Ashelia B'nargin Dalmasca"
+	desc = "Ashelia_Bnargin_Dalmasca_desc"
+	picture = "Portrait_Ashelia_Bnargin_Dalmasca.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		warmonger
+		popular_queen
+		
+	}
 }
 
 
