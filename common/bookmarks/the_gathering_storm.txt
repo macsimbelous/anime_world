@@ -42,7 +42,7 @@ bookmarks = {
 				
 			}
 		}
-		"MRO" = {
+		"FEF" = {
 			history = "HDN_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
