@@ -9,16 +9,34 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	fascism = 5
-	communism = 20
-	democratic = 65
+	communism = 35
+	democratic = 50
 	neutrality = 10
 }
-
-
+create_country_leader = {
+	name = "Theo Cornaro"
+	desc = "Theo_Cornaro_desc"
+	picture = "Portrait_Theo_Cornaro.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		silent_workhorse
+	}
+}
+create_country_leader = {
+	name = "Siluca Meletes"
+	desc = "Siluca_Meletes_desc"
+	picture = "Portrait_Siluca_Meletes.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		warmonger
+	}
+}
