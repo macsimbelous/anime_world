@@ -16,10 +16,20 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
+	fascism = 65
 	communism = 20
-	democratic = 65
+	democratic = 5
 	neutrality = 10
 }
 
-
+create_country_leader = {
+	name = "Yuno Gasai"
+	desc = "Yuno_Gasai_desc"
+	picture = "Portrait_Yuno_Gasai.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		great_war_hero
+		princess_of_terror
+	}
+}

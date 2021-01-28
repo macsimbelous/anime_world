@@ -10,7 +10,7 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,6 +18,16 @@ set_politics = {
 set_popularities = {
 	fascism = 5
 	communism = 20
-	democratic = 65
-	neutrality = 10
+	democratic = 10
+	neutrality = 65
+}
+create_country_leader = {
+	name = "Cryska Barchenowa"
+	desc = "Cryska_Barchenowa_desc"
+	picture = "Portrait_Cryska_Barchenowa.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		great_war_hero
+	}
 }

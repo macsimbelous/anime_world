@@ -10,16 +10,25 @@ set_stability = 0.6
 set_war_support = 0.5
 set_oob = "ZZZ_1936"
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 0
+	communism = 0
+	democratic = 100
+	neutrality = 0
 }
-
+create_country_leader = {
+	name = "Belldandy"
+	desc = "Belldandy_desc"
+	picture = "Portrait_Belldandy.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		popular_queen
+	}
+}
 
