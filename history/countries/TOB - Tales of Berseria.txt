@@ -16,10 +16,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
+	fascism = 65
 	communism = 20
-	democratic = 65
+	democratic = 5
 	neutrality = 10
 }
 
-
+create_country_leader = {
+	name = "Velvet Crowe"
+	desc = "Velvet_Crowe_desc"
+	picture = "Portrait_Velvet_Crowe.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		great_war_hero
+		warmonger
+		warrior_code
+		army_chief_offensive_3
+	}
+}

@@ -18,8 +18,17 @@ set_politics = {
 set_popularities = {
 	fascism = 5
 	communism = 20
-	democratic = 65
-	neutrality = 10
+	democratic = 10
+	neutrality = 65
 }
 
+create_country_leader = {
+	name = "Luke Fon Fabre"
+	desc = "Luke_Fon_Fabre_desc"
+	picture = "Portrait_Luke_Fon_Fabre.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
 
+	}
+}

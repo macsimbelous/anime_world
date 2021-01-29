@@ -16,10 +16,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
+	fascism = 65
 	communism = 20
-	democratic = 65
+	democratic = 5
 	neutrality = 10
 }
 
 
+create_country_leader = {
+	name = "Saki Rukino"
+	desc = "Saki_Rukino_desc"
+	picture = "Portrait_Saki_Rukino.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		warmonger
+		great_war_hero
+		war_industrialist
+	}
+}

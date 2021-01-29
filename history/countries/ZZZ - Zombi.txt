@@ -16,10 +16,19 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 5
-	communism = 20
-	democratic = 65
-	neutrality = 10
+	fascism = 100
+	communism = 0
+	democratic = 0
+	neutrality = 0
 }
 
-
+create_country_leader = {
+	name = "Zombi Lider"
+	desc = "Zombi_Lider_desc"
+	picture = "Portrait_Zombi_Lider.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		warmonger
+	}
+}
