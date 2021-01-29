@@ -24,7 +24,7 @@ state={
 			}
 		}
 		add_core_of = F12
-
+		add_claim_by = F13
 	}
 
 	provinces={

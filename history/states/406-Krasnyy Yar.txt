@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = TOA
+		owner = TYN
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TOA
+		add_core_of = TYN
 		
 		victory_points = {
 			3618 1

@@ -5,6 +5,7 @@ state={
 	history={
 		owner = FF9
 		add_core_of = FF9
+		add_claim_by = F13
 		victory_points = {
 			3933 1
 		}

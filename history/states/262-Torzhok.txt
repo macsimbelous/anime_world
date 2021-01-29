@@ -2,7 +2,7 @@
 state={
 	id=262
 	name="STATE_262" # Pechora
-	manpower = 43590
+	manpower = 4359000
 	
 	state_category = rural
 	
@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = TOG
+		owner = TBD
 		buildings = {
 			infrastructure = 1
 			12530 = {
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = TOG
+		add_core_of = TBD
 	}
 
 	provinces={

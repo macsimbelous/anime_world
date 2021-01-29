@@ -120,6 +120,123 @@ bookmarks = {
 				
 			}
 		}
+		"DIF" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"DXD" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"FEA" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"FET" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"FGO" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"GBS" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"KLK" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"ONI" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
+		"OVL" = {
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				free_trade
+				volunteer_only
+				civilian_economy
+			}
+			focuses = {
+				
+			}
+		}
 		effect = {
 			randomize_weather = 22345			# <- Obligatory in every bookmark !
 		}

@@ -67,10 +67,6 @@ VC1 = {
 	color = rgb {245  93  24}
 	color_ui = rgb { 139 20 20 }
 }
-VC4 = {
-	color = rgb {245  152  24}
-	color_ui = rgb { 139 20 20 }
-}
 EVA = {
 	color = rgb {245  196  24}
 	color_ui = rgb { 139 20 20 }
@@ -387,14 +383,6 @@ UWM = {
 	color = rgb {128  255  40}
 	color_ui = rgb { 139 20 20 }
 }
-VC2 = {
-	color = rgb {128  255  68}
-	color_ui = rgb { 139 20 20 }
-}
-VC3 = {
-	color = rgb {128  255  89}
-	color_ui = rgb { 139 20 20 }
-}
 ALA = {
 	color = rgb {255  205  71}
 	color_ui = rgb { 139 20 20 }
@@ -521,5 +509,41 @@ DOA = {
 }
 TOA = {
 	color = rgb {81  86  127}
+	color_ui = rgb { 139 20 20 }
+}
+DIF = {
+	color = rgb {253  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+HKM = {
+	color = rgb {57  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+KLK = {
+	color = rgb {109  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+NYO = {
+	color = rgb {224  1  1}
+	color_ui = rgb { 139 20 20 }
+}
+RKO = {
+	color = rgb {224  153  1}
+	color_ui = rgb { 139 20 20 }
+}
+TBD = {
+	color = rgb {224  153  208}
+	color_ui = rgb { 139 20 20 }
+}
+TKZ = {
+	color = rgb {224  51  208}
+	color_ui = rgb { 139 20 20 }
+}
+TYN = {
+	color = rgb {224  51  46}
+	color_ui = rgb { 139 20 20 }
+}
+ZLS = {
+	color = rgb {1  1  1}
 	color_ui = rgb { 139 20 20 }
 }

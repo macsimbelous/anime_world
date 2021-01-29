@@ -21,6 +21,7 @@ state={
 
 		}
 		add_core_of = FF7
+		add_claim_by = F13
 
 	}
 

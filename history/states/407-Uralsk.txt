@@ -3,8 +3,8 @@ state={
 	name="STATE_407"
 
 	history={
-		owner = TOA
-		add_core_of = TOA
+		owner = TYN
+		add_core_of = TYN
 		buildings = {
 			infrastructure = 3
 
