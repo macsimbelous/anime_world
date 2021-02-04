@@ -2,7 +2,7 @@ armor_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {
@@ -489,7 +489,7 @@ garrison_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 	
 	roles = {
@@ -676,7 +676,7 @@ infantry_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {
@@ -781,7 +781,7 @@ infantry_big_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {
@@ -903,7 +903,7 @@ mountaineers_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {
@@ -1008,7 +1008,7 @@ marines_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {
@@ -1194,7 +1194,7 @@ paratrooper_generic = {
 
 	blocked_for = {
 		HDN
-		FEF
+		
 	}
 
 	roles = {

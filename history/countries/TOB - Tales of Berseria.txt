@@ -31,7 +31,7 @@ create_country_leader = {
 	traits = {
 		great_war_hero
 		warmonger
-		warrior_code
+		#warrior_code
 		army_chief_offensive_3
 	}
 }
