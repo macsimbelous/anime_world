@@ -1,0 +1,61 @@
+﻿l_russian:
+
+#volunteers
+wfl_campaigning_for_volunteers_category:0 "Людские ресурсы"
+wfl_campaigning_for_volunteers_category_desc:0 "Людские ресурсыв"
+wfl_campaigning_for_volunteers_decision.t:0 "Агитация добровольцев"
+
+#wfc_integration_category
+wfc_integration_category:0 "Интеграция"
+wfc_integration_decision.t:0 "Интегрировать §Y[From.GetName]§!"
+wfc_integration_decision.t_desc:0 "Не обходимо закрепить распространение нашей культуры в §Y[From.GetName]§!"
+
+#create_subject
+wfc_subjects_category:0 "Субъекты"
+wfc_create_subject_decision:0 "Создать субъект §Y[From.GetNameDef]§!"
+wfc_change_country_leader:0 "Сменить лидера §Y[From.GetNameDef]§!"
+
+#wfc_world_conquest_category
+wfc_world_conquest_category:0 "Завоевание мира"
+wfc_world_conquest_decision:0 "Завоевать §R[From.GetNameDef]§!"
+
+#wfc_preparation_for_war_category
+wfc_preparation_for_war_category:0 "Подготовка к воине"
+wfc_border_defense:0 "Укрепление границы"
+
+#wfc_budget_category
+wfc_budget_category:0 "Бюджет"
+wfc_budget_category_desc:0 "Субсидии: §G[?wfc_subsidies_count]§! из §G[?mtth:wfc_subsidies_count]§!\nСтроительство: §G[?wfc_subsidies_to_building_count]§!\nПроизводство: §G[?wfc_subsidies_to_factory_count]§!\nСудостроение: §G[?wfc_subsidies_to_dockyard_count]§!\nИсследования: §G[?wfc_subsidies_to_research_count]§!\nАтомное оружие: §G[?wfc_subsidies_to_nuclear_count]§!\nКоличество субсидий определяется числом гражданских фабри: 50 или меньше - 10, больше 50 - 15, больше 75 - 20, больше 100 - 25."
+wfc_subsidies_count_up_tt:0 "Есть свободные субсидии"
+wfc_subsidies_count_down_tt:0 "Есть субсидии в отрасли"
+wfc_subsidies_to_building_up_decision:0 "Субсидировать строительство"
+wfc_subsidies_to_building_down_decision:0 "Уменьшить субсидии строительству"
+wfc_subsidies_to_factory_up_decision:0 "Субсидировать производство"
+wfc_subsidies_to_factory_down_decision:0 "Уменьшить субсидии производству"
+wfc_subsidies_to_dockyard_up_decision:0 "Субсидировать судостроение"
+wfc_subsidies_to_dockyard_down_decision:0 "Уменьшить субсидии судостроению"
+wfc_subsidies_to_research_up_decision:0 "Субсидировать исследования"
+wfc_subsidies_to_research_down_decision:0 "Уменьшить субсидии исследованиям"
+wfc_subsidies_to_nuclear_up_decision:0 "Субсидировать атомное оружия"
+wfc_subsidies_to_nuclear_down_decision:0 "Уменьшить субсидии атомному оружию"
+
+#wfc_construction_phase_category
+wfc_construction_phase_category:0 "Очередь строительства"
+wfc_construction_phase_category_desc:0 "Эти решения позволяют добавить в очередь строительства построики для всех регионов."
+wfc_construction_phase_infrastructure_decision:0 "Добавить инфраструктуру"
+wfc_construction_phase_industrial_complex_decision:0 "Добавить фабрики"
+wfc_construction_phase_synthetic_refinery_decision:0 "Добавить НПЗ"
+wfc_construction_phase_fuel_silo_decision:0 "Добавить топливо хранилища"
+wfc_construction_phase_arms_factory_decision:0 "Добавить военные заводы"
+wfc_construction_phase_dockyard_decision:0 "Добавить верфи"
+wfc_construction_phase_rocket_site_decision:0 "Добавить рокетные базы"
+wfc_construction_phase_nuclear_reactor_decision:0 "Добавить ядерные реакторы"
+wfc_construction_phase_air_base_decision:0 "Добавить авиа базы"
+wfc_construction_phase_anti_air_building_decision:0 "Добавить ПВО"
+wfc_construction_phase_radar_station_decision:0 "Добавить радары"
+wfc_construction_phase_bunker_decision:0 "Добавить бункеры на границе"
+wfc_construction_phase_coastal_bunker_decision:0 "Добавить береговые укрепления"
+
+#wfc_transfer_of_the_capital_category
+wfc_transfer_of_the_capital_category:0 "Перенос столицы"
+wfc_transfer_of_the_capital_decision:0 "Перенести столицу в регион §G[FROM.GetName]§!"

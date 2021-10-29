@@ -1,0 +1,1466 @@
+wfc_world_conquest_category = {
+	wfc_world_conquest_decision = {
+		#war_with_target_on_complete = yes
+		war_with_target_on_remove = yes
+		available = {
+			#has_war = no
+			FROM = {
+				OR = {
+					is_neighbor_of = ROOT
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+					}
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		#target_array = neighbors
+		target_trigger = {
+			FROM = {
+				OR = {
+					any_neighbor_country = {
+						is_puppet_of = ROOT
+					}
+					is_neighbor_of = ROOT
+				}
+				NOT = {
+					OR = {
+						is_in_faction_with = ROOT
+						is_puppet_of = ROOT
+						has_war_with = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					FROM = {
+						has_government = fascism
+					}
+				}
+				add = -3
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					FROM = {
+						has_government = communism
+					}
+				}
+				add = 2
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					FROM = {
+						has_government = democratic
+					}
+				}
+				add = 2
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					FROM = {
+						has_government = neutrality
+					}
+				}
+				add = 1
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					FROM = {
+						has_government = fascism
+					}
+				}
+				add = 2
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					FROM = {
+						has_government = democratic
+					}
+				}
+				add = 1
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					FROM = {
+						has_government = neutrality
+					}
+				}
+				add = 1
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = communism
+					}
+					FROM = {
+						has_government = communism
+					}
+				}
+				add = -3
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					FROM = {
+						has_government = communism
+					}
+				}
+				add = 2
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					FROM = {
+						has_government = fascism
+					}
+				}
+				add = 1
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					FROM = {
+						has_government = neutrality
+					}
+				}
+				add = 1
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_government = democratic
+					}
+					FROM = {
+						has_government = democratic
+					}
+				}
+				add = -3
+			}
+			modifier = {
+				has_government = neutrality
+				add = -5
+			}
+			modifier = {
+				has_war = yes
+				add = -1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 1.5
+				}
+				add = 1
+			}
+			modifier = {
+				strength_ratio = {
+					tag = FROM
+					ratio > 2
+				}
+				add = 1
+			}
+			modifier = {
+				is_in_faction = yes
+				add = 1
+			}
+			modifier = {
+				FROM = {
+					OR = {
+						is_in_faction = yes
+						is_puppet = yes
+					}
+				}
+				add = -1
+			}
+			# modifier = {
+			# 	FROM = {
+			# 		OVERLORD = {
+			# 			is_major = yes
+			# 		}
+			# 	}
+			# 	add = -1
+			# }
+		}
+		fire_only_once = no
+		cost = 100
+		#days_re_enable = 30
+		days_remove = 30
+		remove_effect = {
+			# FROM = {
+			# 	every_owned_state = {
+			# 		add_claim_by = ROOT
+			# 	}
+			# }
+			FROM = {
+				every_owned_state = {
+					limit = {
+						any_neighbor_state = {
+							is_owned_by = ROOT
+						}
+					}
+					add_claim_by = ROOT
+				}
+			}
+			# declare_war_on = {
+			# 	target = FROM
+			# 	type = annex_everything
+			# }
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				create_wargoal = {
+					target = FROM
+					type = annex_everything
+				}
+			}
+			else = {
+				create_wargoal = {
+					target = FROM
+					type = puppet_wargoal_focus
+				}
+			}
+		}
+		complete_effect = {
+		}
+	}
+}
+
+wfc_integration_category = {
+	wfc_integration_decision = {
+		name = wfc_integration_decision.t
+		#icon = generic_nationalism
+		#icon = generic_form_nation
+		icon = GFX_decision_generic_brainwash
+		available = {
+			FROM = {
+				compliance > 50
+				resistance < 5
+			}
+		}
+		visible = {
+			FROM = {
+				#is_owned_by = ROOT
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		state_target = yes
+		on_map_mode = map_and_decisions_view
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		days_remove = 30
+		modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.1
+		}
+		cancel_trigger = {
+			FROM = {
+				is_core_of = ROOT
+			}
+		}
+		remove_effect = {
+			FROM = {
+				#add_core_of = ROOT
+				wfc_coring_state = yes
+			}
+		}
+		cancel_effect = {
+			add_political_power = 50
+		}
+	}
+}
+
+wfl_campaigning_for_volunteers_category = {
+	wfl_campaigning_for_volunteers_decision = {
+		name = wfl_campaigning_for_volunteers_decision.t
+		icon = decision_category_generic_propaganda
+		fire_only_once = no
+		cost = 50
+		days_re_enable = 30
+		available = {
+			OR = {
+				has_idea = service_by_requirement
+				has_idea = all_adults_serve
+				has_idea = scraping_the_barrel
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_manpower < 100000
+				add = 1
+			}
+			modifier = {
+				has_manpower < 10000
+				add = 5
+			}
+			modifier = {
+				has_war = no
+				add = -6
+			}
+		}
+		complete_effect = {
+			set_temp_variable = {
+				temp_mp = mtth:wfc_volunteers_base
+			}
+			multiply_temp_variable = {
+				temp_mp = num_owned_states
+			}
+			add_manpower = temp_mp
+		}
+	}
+}
+
+economy_decisions = {
+	wfl_urbanisation_decision = {
+		icon = generic_construction
+		cost = 150
+		fire_only_once = no
+		days_re_enable = 30
+		available = {
+			any_owned_state = {
+				NOT = {
+					OR = {
+						has_state_category = small_island
+						has_state_category = megalopolis
+					}
+				}
+				is_fully_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size < 1
+				}
+			}
+		}
+		visible = {
+			any_owned_state = {
+				NOT = {
+					OR = {
+						has_state_category = small_island
+						has_state_category = megalopolis
+					}
+				}
+				is_fully_controlled_by = ROOT
+				free_building_slots = {
+					building = infrastructure
+					size < 1
+				}
+			}
+		}
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					NOT = {
+						OR = {
+							has_state_category = small_island
+							has_state_category = megalopolis
+						}
+					}
+					is_fully_controlled_by = ROOT
+					#is_owned_by = ROOT
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				urbanize_state = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				any_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = no
+					}
+				}
+			}
+		}
+	}
+}
+
+wfc_subjects_category = {
+	wfc_create_subject_decision = {
+		fire_only_once = no
+		cost = 100
+		#target_array = countries
+		target_non_existing = yes
+		target_trigger = {
+			always = yes
+		}
+		visible = {
+			ROOT = {
+				any_controlled_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				# any_owned_state = {
+				# 	is_core_of = FROM
+				# 	NOT = {
+				# 		is_core_of = ROOT
+				# 	}
+				# }
+			}
+		}
+		available = {
+			FROM = {
+				exists = no
+			}
+			ROOT = {
+				any_owned_state = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -100
+		}
+		complete_effect = {
+			set_autonomy = {
+				target = FROM
+				autonomy_state = autonomy_federation_subject
+			}
+			every_controlled_state = {
+				limit = {
+					is_core_of = FROM
+					NOT = {
+						is_core_of = ROOT
+					}
+				}
+				FROM = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
+}
+
+wfc_preparation_for_war_category = {
+	wfc_border_defense = {
+		icon = generic_construction
+		available = {
+			has_war = no
+			num_of_civilian_factories_available_for_projects > 4
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+		cost = 100
+		days_remove = 60
+		modifier = {
+			civilian_factory_use = 5
+		}
+		remove_effect = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
+
+wfc_budget_category = {
+	wfc_subsidies_to_building_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_building_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_building_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = -10
+			modifier = {
+				has_government = communism
+				add = 13
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_building_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_building_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_factory_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = communism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_factory_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_factory_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = -10
+			modifier = {
+				has_government = fascism
+				add = 13
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_factory_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_factory_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_dockyard_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_government = democratic
+				add = 1
+			}
+			modifier = {
+				has_government = communism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_dockyard_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_dockyard_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = -10
+			modifier = {
+				has_government = fascism
+				add = 13
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_dockyard_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_dockyard_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_research_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 2
+			modifier = {
+				has_government = fascism
+				add = 1
+			}
+			modifier = {
+				has_government = communism
+				add = 1
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_research_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_research_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = -10
+			modifier = {
+				has_government = democratic
+				add = 13
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_research_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_research_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+	wfc_subsidies_to_nuclear_up_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = 3
+			modifier = {
+				num_of_nukes > 20
+				add = -13
+			}
+		}
+		available = {
+			has_tech = nukes
+			nuclear_reactor > 0
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_up_tt
+				check_variable = {
+					var = wfc_subsidies_count
+					value = mtth:wfc_subsidies_count
+					compare = less_than
+				}
+			}
+		}
+		complete_effect = {
+			add_to_variable = {
+				wfc_subsidies_to_nuclear_count = 1
+			}
+			add_to_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = wfc_subsidies_dm_flag
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = wfc_subsidies_dm
+				}
+				set_country_flag = wfc_subsidies_dm_flag
+			}
+		}
+	}
+	wfc_subsidies_to_nuclear_down_decision = {
+		icon = generic_economy
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			base = -10
+			modifier = {
+				num_of_nukes > 20
+				add = 13
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = wfc_subsidies_count_down_tt
+				check_variable = {
+					var = wfc_subsidies_to_nuclear_count
+					value = 0
+					compare = greater_than
+				}
+			}
+		}
+		complete_effect = {
+			subtract_from_variable = {
+				wfc_subsidies_to_nuclear_count = 1
+			}
+			subtract_from_variable = {
+				wfc_subsidies_count = 1
+			}
+			wfc_subsidies_change = yes
+		}
+	}
+}
+
+wfc_construction_phase_category = {
+	wfc_construction_phase_infrastructure_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = infrastructure
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		cost = 0
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_industrial_complex_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_synthetic_refinery_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			has_tech = synth_oil_experiments
+			any_owned_state = {
+				free_building_slots = {
+					building = synthetic_refinery
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = synthetic_refinery
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_fuel_silo_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			has_tech = fuel_silos
+			any_owned_state = {
+				free_building_slots = {
+					building = fuel_silo
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = fuel_silo
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_arms_factory_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_dockyard_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = dockyard
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_rocket_site_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			has_tech = experimental_rockets
+			any_owned_state = {
+				free_building_slots = {
+					building = rocket_site
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = rocket_site
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = rocket_site
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_nuclear_reactor_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			has_tech = nuclear_reactor
+			any_owned_state = {
+				free_building_slots = {
+					building = nuclear_reactor
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = nuclear_reactor
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = nuclear_reactor
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_air_base_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = air_base
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_anti_air_building_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				free_building_slots = {
+					building = anti_air_building
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = anti_air_building
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_radar_station_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			has_tech = radio_detection
+			any_owned_state = {
+				free_building_slots = {
+					building = radar_station
+					size > 0
+					#include_locked = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = radar_station
+						size > 0
+						#include_locked = yes
+					}
+				}
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_bunker_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				any_neighbor_state = {
+					any_province_building_level = {
+						building = bunker
+						level < 10
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					all_neighbor_state = {
+						always = yes
+					}
+				}
+				add_building_construction = {
+					type = bunker
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+	wfc_construction_phase_coastal_bunker_decision = {
+		icon = generic_construction
+		fire_only_once = no
+		cost = 0
+		available = {
+			any_owned_state = {
+				is_coastal = yes
+				any_province_building_level = {
+					building = coastal_bunker
+					level < 10
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		complete_effect = {
+			every_owned_state = {
+				limit = {
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+					level = 1
+					instant_build = no
+				}
+			}
+		}
+	}
+}
+
+wfc_transfer_of_the_capital_category = {
+	wfc_transfer_of_the_capital_decision = {
+		icon = GFX_decision_wfc_transfer_of_the_capital_decision_2
+		visible = {
+			FROM = {
+				is_core_of = ROOT
+				is_capital = no
+				OR = {
+					has_state_category = large_city
+					has_state_category = metropolis
+					has_state_category = megalopolis
+				}
+			}
+		}
+		available = {
+			FROM = {
+				is_fully_controlled_by = ROOT
+				OR = {
+					has_state_category = metropolis
+					has_state_category = megalopolis
+				}
+			}
+		}
+		ai_will_do = {
+			factor = -10
+		}
+		state_target = yes
+		on_map_mode = map_only
+		#target_array = owned_controlled_states
+		target_array = owned_states
+		target_trigger = {
+			FROM = {
+				always = yes
+			}
+		}
+		cost = 300
+		fire_only_once = no
+		days_remove = 30
+		modifier = {
+			stability_factor = -0.1
+			political_power_gain = -0.1
+		}
+		cancel_trigger = {
+			FROM = {
+				NOT = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+		remove_effect = {
+			set_capital = FROM
+		}
+		cancel_effect = {
+			add_political_power = 50
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+wfc_volunteers_base = {
+	base = 500
+	modifier = {
+		FROM = {
+			has_tech = radio
+		}
+		add = 500
+	}
+}
+
+wfc_subsidies_count = {
+	base = 10
+	modifier = {
+		num_of_civilian_factories > 50
+		add = 5
+	}
+	modifier = {
+		num_of_civilian_factories > 75
+		add = 5
+	}
+	modifier = {
+		num_of_civilian_factories > 100
+		add = 5
+	}
+}

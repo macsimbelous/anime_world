@@ -1,0 +1,51 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = {
+					wfc_subsidies_to_building_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_building = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_factory_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_factory = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_dockyard_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_dockyard = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_research_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_research = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_nuclear_count = 0
+				}
+				set_variable = {
+					wfc_subsidies_to_nuclear = 0
+				}
+				set_variable = {
+					wfc_subsidies_count = 0
+				}
+			}
+		}
+	}
+	#ROOT is subject FROM is overlord
+	on_subject_annexed = {
+		effect = {
+			ROOT = {
+				every_owned_state = {
+					add_core_of = FROM
+				}
+			}
+		}
+	}
+}
