@@ -213,7 +213,13 @@ wfc_world_conquest_category = {
 			}
 			modifier = {
 				is_in_faction = yes
+				is_faction_leader = yes
 				add = 1
+			}
+			modifier = {
+				is_in_faction = yes
+				is_faction_leader = no
+				add = -5
 			}
 			modifier = {
 				FROM = {
