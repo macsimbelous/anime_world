@@ -484,7 +484,7 @@ wfc_subjects_category = {
 				num_of_controlled_states = 0
 			}
 			ROOT = {
-				any_owned_state = {
+				any_controlled_state = {
 					is_core_of = FROM
 					NOT = {
 						is_core_of = ROOT
