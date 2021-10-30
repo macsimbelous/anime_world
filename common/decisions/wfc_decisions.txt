@@ -146,63 +146,8 @@ wfc_world_conquest_category = {
 				add = -3
 			}
 			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = communism
-					}
-				}
-				add = 2
-			}
-			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = fascism
-					}
-				}
-				add = 1
-			}
-			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = neutrality
-					}
-				}
-				add = 1
-			}
-			modifier = {
-				if = {
-					limit = {
-						has_government = democratic
-					}
-					FROM = {
-						has_government = democratic
-					}
-				}
-				add = -3
-			}
-			modifier = {
-				has_government = neutrality
-				add = -5
-			}
-			modifier = {
 				has_war = yes
 				add = -1
-			}
-			modifier = {
-				strength_ratio = {
-					tag = FROM
-					ratio > 1.5
-				}
-				add = 1
 			}
 			modifier = {
 				strength_ratio = {
@@ -230,14 +175,6 @@ wfc_world_conquest_category = {
 				}
 				add = -1
 			}
-			# modifier = {
-			# 	FROM = {
-			# 		OVERLORD = {
-			# 			is_major = yes
-			# 		}
-			# 	}
-			# 	add = -1
-			# }
 		}
 		fire_only_once = no
 		cost = 100

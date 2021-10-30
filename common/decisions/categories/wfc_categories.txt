@@ -3,8 +3,17 @@ wfc_world_conquest_category = {
 	icon = decision_generic_ignite_civil_war
 	#visible_when_empty = yes
 	visible = {
-		date > 1938.1.1
-		is_puppet = no
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			date > 1938.1.1
+			is_puppet = no
+			OR = {
+				has_government = fascism
+				has_government = communism
+			}
+		}
 	}
 }
 
