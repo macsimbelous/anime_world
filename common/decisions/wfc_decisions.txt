@@ -4,6 +4,7 @@ wfc_world_conquest_category = {
 		war_with_target_on_remove = yes
 		available = {
 			#has_war = no
+			has_war_support > 0.5
 			FROM = {
 				OR = {
 					is_neighbor_of = ROOT
@@ -479,7 +480,8 @@ wfc_subjects_category = {
 		}
 		available = {
 			FROM = {
-				exists = no
+				#exists = no
+				num_of_controlled_states = 0
 			}
 			ROOT = {
 				any_owned_state = {

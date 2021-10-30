@@ -2,6 +2,9 @@ wfc_world_conquest_category = {
 	priority = 8
 	icon = decision_generic_ignite_civil_war
 	#visible_when_empty = yes
+	visible = {
+		date > 1937.1.1
+	}
 }
 
 wfc_integration_category = {
@@ -41,7 +44,7 @@ wfc_budget_category = {
 
 }
 wfc_construction_phase_category = {
-	priority = 5
+	priority = 1
 	icon = generic_construction
 	#picture = GFX_wfc_budget_category
 }
