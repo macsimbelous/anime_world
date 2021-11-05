@@ -1967,7 +1967,14 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				OR = {
+					fascism > 0.3
+					communism > 0.3
+				}
+				add = 10
+			}
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -2001,7 +2008,11 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				fascism > 0.3
+				add = 10
+			}
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -2035,7 +2046,11 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				communism > 0.3
+				add = 10
+			}
 		}
 		completion_reward = {
 			add_political_power = 150
@@ -2069,7 +2084,14 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				OR = {
+					democratic > 0.3
+					neutrality > 0.3
+				}
+				add = 10
+			}
 		}
 		completion_reward = {
 			add_ideas = liberty_ethos_focus
@@ -2150,7 +2172,11 @@ focus_tree = {
 			has_government = neutrality
 		}
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				neutrality > 0.3
+				add = 10
+			}
 		}
 		completion_reward = {
 			if = {
@@ -2192,7 +2218,11 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 5
+			base = 5
+			modifier = {
+				democratic > 0.3
+				add = 10
+			}
 		}
 		completion_reward = {
 			if = {
