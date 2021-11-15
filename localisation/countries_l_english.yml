@@ -326,3 +326,5 @@ YEC_ADJ:0 "Yecristan"
 ZAS:0 "Zaspeoria"
 ZAS_DEF:0 "Zaspeoria"
 ZAS_ADJ:0 "Zaspeoria"
+
+autonomy_federation_subject:0 "Subject of the federation"

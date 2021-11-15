@@ -424,7 +424,7 @@ wfc_subjects_category = {
 		available = {
 			FROM = {
 				#exists = no
-				num_of_controlled_states = 0
+				num_of_controlled_states < 1
 			}
 			ROOT = {
 				any_controlled_state = {
