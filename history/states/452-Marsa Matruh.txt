@@ -7,7 +7,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = FTI
+		owner = ESN
 		buildings = {
 			infrastructure = 3
 		}
@@ -16,7 +16,7 @@ state={
 			9989 1
 		}
 
-	add_core_of = FTI
+	add_core_of = ESN
 	}
 
 	provinces={

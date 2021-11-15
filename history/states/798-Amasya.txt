@@ -9,7 +9,7 @@ state={
 	state_category = rural
 
 	history= {
-		owner = GUP
+		owner = NUG
 		victory_points = {
 			3862 3
 		}
@@ -19,6 +19,6 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GUP
+		add_core_of = NUG
 	}
 }

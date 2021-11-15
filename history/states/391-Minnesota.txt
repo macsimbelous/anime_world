@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = REC
+		owner = SWA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 		}
-		add_core_of = REC
+		add_core_of = SWA
 		victory_points = {
 			1866 5 
 		}

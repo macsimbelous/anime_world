@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = UWM
-		add_core_of = UWM
+		owner = SED
+		add_core_of = SED
 		buildings = {
 			infrastructure = 3
 			1355 = {

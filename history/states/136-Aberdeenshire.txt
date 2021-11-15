@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		add_core_of = TTT
-		owner = TTT
+		add_core_of = PAF
+		owner = PAF
 		buildings = {
 			infrastructure = 6
 			dockyard = 2

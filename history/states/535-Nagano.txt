@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = MCR
-		add_core_of = MCR
+		owner = PLI
+		add_core_of = PLI
 		buildings = {
 		
 			arms_factory = 1

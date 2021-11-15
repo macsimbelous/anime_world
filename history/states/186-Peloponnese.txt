@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			11965 1
 		}
-		owner = ALR
+		owner = FUG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -30,7 +30,7 @@ state={
 			}
 
 		}
-		add_core_of = ALR
+		add_core_of = FUG
 
 	}
 

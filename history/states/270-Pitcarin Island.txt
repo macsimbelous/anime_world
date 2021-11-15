@@ -7,8 +7,8 @@ state=
 	
 	history=
 	{
-		owner = XNS
-		add_core_of = XNS
+		owner = KUS
+		add_core_of = KUS
 		buildings = {
 			infrastructure = 1
 			1280 = {

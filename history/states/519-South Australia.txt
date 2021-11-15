@@ -7,12 +7,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RLW
+		owner = KUF
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = RLW
+		add_core_of = KUF
 	}
 
 	provinces={

@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = NGM
-		add_core_of = NGM
+		owner = QUB
+		add_core_of = QUB
 
 		victory_points = {
 			1519 3 

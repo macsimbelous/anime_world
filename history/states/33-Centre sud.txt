@@ -10,12 +10,12 @@ state={
 		victory_points = {
 			651 1
 		}
-		owner = SDK
+		owner = GEF
 		
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = SDK
+		add_core_of = GEF
 	}
 
 	provinces={

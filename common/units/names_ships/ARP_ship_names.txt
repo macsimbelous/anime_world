@@ -1,9 +1,9 @@
-﻿##### ARPAN NAME LISTS #####
+﻿##### JUGAN NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-ARP_DD_HISTORICAL = {
+JUG_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -36,10 +36,10 @@ ARP_DD_HISTORICAL = {
 }
 
 ### ESCORT DESTROYER NAMES###
-ARP_DE_HISTORICAL = {
+JUG_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -64,10 +64,10 @@ ARP_DE_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-ARP_CL_HISTORICAL = {
+JUG_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -88,10 +88,10 @@ ARP_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-ARP_CA_HISTORICAL = {
+JUG_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -114,10 +114,10 @@ ARP_CA_HISTORICAL = {
 
 
 ### MINELAYER NAMES###
-ARP_MINELAYERS_HISTORICAL = {
+JUG_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -136,10 +136,10 @@ ARP_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-ARP_BB_HISTORICAL = {
+JUG_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -157,10 +157,10 @@ ARP_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-ARP_BC_HISTORICAL = {
+JUG_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -178,10 +178,10 @@ ARP_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-ARP_CV_HISTORICAL = {
+JUG_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -195,10 +195,10 @@ ARP_CV_HISTORICAL = {
 }
 
 ### LIGHT CARRIER NAMES ###
-ARP_CVL_HISTORICAL = {
+JUG_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -215,10 +215,10 @@ ARP_CVL_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-ARP_SS_HISTORICAL = {
+JUG_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -284,11 +284,11 @@ ARP_SS_HISTORICAL = {
 }
 
 
-### THEME: ARPANESE PREFECTURES ###
-ARP_PREFECTURES = {
+### THEME: JUGANESE PREFECTURES ###
+JUG_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 
@@ -301,11 +301,11 @@ ARP_PREFECTURES = {
 		"Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
 	}
 }
-## THEME: ARPANESE CITIES ###
-ARP_CITIES = {
+## THEME: JUGANESE CITIES ###
+JUG_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 
@@ -323,10 +323,10 @@ ARP_CITIES = {
 	}
 }
 
-ARP_WEATHER = {
+JUG_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 
@@ -343,10 +343,10 @@ ARP_WEATHER = {
 	}
 }
 
-ARP_NATURE = {
+JUG_NATURE = {
 	name = NAME_THEME_NATURE
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 
@@ -360,10 +360,10 @@ ARP_NATURE = {
 		}
 }
 
-ARP_RIVER_MOUNTAIN = {
+JUG_RIVER_MOUNTAIN = {
 	name = NAME_THEME_RIVER_MOUNTAIN
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	type = ship
 

@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = RAW
+		owner = TRE
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -33,7 +33,7 @@ state={
 		victory_points = {
 			12910 5 
 		}
-		add_core_of = RAW
+		add_core_of = TRE
 	}
 
 	provinces={

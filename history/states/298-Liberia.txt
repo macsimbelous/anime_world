@@ -11,7 +11,7 @@ state=
 	
 
 	history= {
-		owner = KLK
+		owner = SNA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -23,7 +23,7 @@ state=
 		victory_points = {
 			7959 3
 		}
-		add_core_of = KLK
+		add_core_of = SNA
 	}
 	provinces={
 		7959 8006

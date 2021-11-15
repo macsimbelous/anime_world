@@ -6,8 +6,8 @@ state=
 	state_category = large_city
 	history=
 	{
-		owner = KTC
-		add_core_of = KTC
+		owner = ASK
+		add_core_of = ASK
 		buildings = {
 			infrastructure = 3
 			air_base = 3

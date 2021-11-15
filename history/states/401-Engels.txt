@@ -12,11 +12,11 @@ state={
 	}
 
 	history={
-		owner = TOA
+		owner = ROS
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = TOA
+		add_core_of = ROS
 		victory_points = {
 			6502 1
 		}

@@ -3,8 +3,8 @@ state={
 	name="STATE_714"
 
 	history={
-		owner = KMD
-		add_core_of = KMD
+		owner = PUS
+		add_core_of = PUS
 		
 		buildings = {
 			infrastructure = 4

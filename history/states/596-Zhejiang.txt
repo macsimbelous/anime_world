@@ -6,8 +6,8 @@ state=
 	state_category = city
 	history=
 	{
-		owner = RNM
-		add_core_of = RNM
+		owner = YEC
+		add_core_of = YEC
 	
 		
 		victory_points = { 

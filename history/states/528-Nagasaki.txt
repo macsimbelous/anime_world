@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = VVL
-		add_core_of = VVL
+		owner = ASK
+		add_core_of = ASK
 		buildings = {
 			infrastructure = 7
 			air_base = 3

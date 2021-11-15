@@ -7,8 +7,8 @@ state={
 	state_category = city
 
 	history={
-		owner = PS5
-		add_core_of = PS5
+		owner = PLI
+		add_core_of = PLI
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

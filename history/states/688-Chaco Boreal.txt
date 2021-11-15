@@ -11,11 +11,11 @@ state={
 	}
 
 	history={
-		owner = XBX
+		owner = THE
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = XBX
+		add_core_of = THE
 		
 	}
 	

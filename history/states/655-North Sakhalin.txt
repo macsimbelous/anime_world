@@ -6,8 +6,8 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = ISA
-		add_core_of = ISA
+		owner = FLI
+		add_core_of = FLI
 	
 		buildings = {
 			infrastructure = 3

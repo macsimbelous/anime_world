@@ -6,8 +6,8 @@ state={
 	state_category = rural
 	
 	history={
-		add_core_of = FGO
-		owner = FGO
+		add_core_of = JUS
+		owner = JUS
 		victory_points = {
 			8085 1 
 		}

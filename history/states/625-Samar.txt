@@ -7,11 +7,11 @@ state=
 	state_category = rural
 	history=
 	{
-		owner = STB
+		owner = UCL
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = STB
+		add_core_of = UCL
 	}
 	provinces={
 		1224 1311 1340 4269 4373 

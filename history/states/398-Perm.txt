@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = TOG
+		owner = PEC
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			7375 1 
 		}
-		add_core_of = TOG
+		add_core_of = PEC
 		add_claim_by = DRD
 		1939.1.1 = {
 			buildings = {

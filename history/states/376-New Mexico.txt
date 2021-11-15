@@ -13,12 +13,12 @@ state={
 
 
 	history={
-		owner = LGS
+		owner = VUC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = LGS
+		add_core_of = VUC
 		victory_points = {
 			4975 1
 		}

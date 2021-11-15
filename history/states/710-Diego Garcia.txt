@@ -6,8 +6,8 @@ state={
 	
 	history=
 	{
-		owner = NOA
-		add_core_of = NOA
+		owner = POS
+		add_core_of = POS
 		buildings = {
 			infrastructure = 3
 			13019 = {

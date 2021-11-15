@@ -6,8 +6,8 @@ state=
 	manpower=21657
 	history=
 	{
-		owner = HSF
-		add_core_of = HSF
+		owner = FRI
+		add_core_of = FRI
 		
 		buildings = {
 			infrastructure = 3

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = FSN
+		owner = GRE
 		victory_points = {
 			4943 5
 		}
@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = FSN
+		add_core_of = GRE
 		
 	}
 

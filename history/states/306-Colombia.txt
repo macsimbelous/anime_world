@@ -7,14 +7,14 @@ state={
 	state_category = city
 	
 	history={
-		owner = FT0
+		owner = GRT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 2
 		}
-		add_core_of = FT0
+		add_core_of = GRT
 		victory_points = {
 			10747 10
 		}

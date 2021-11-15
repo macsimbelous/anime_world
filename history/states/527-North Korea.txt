@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = AGA
+		owner = YAS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state={
 			4052 1
 		}	
 
-		add_core_of = AGA
+		add_core_of = YAS
 	}
 
 	provinces={

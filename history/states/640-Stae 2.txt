@@ -9,8 +9,8 @@ state={
 		tungsten = 120 
 	}
 	history={
-		add_core_of = IUD
-		owner = IUD
+		add_core_of = ROB
+		owner = ROB
 		buildings = {
 			infrastructure = 3
 			air_base = 1

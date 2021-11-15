@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ONI
+		owner = OPL
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -21,7 +21,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = ONI
+		add_core_of = OPL
 		victory_points = {
 			4345 20
 		}

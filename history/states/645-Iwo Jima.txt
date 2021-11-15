@@ -6,8 +6,8 @@ state=
 	state_category = small_island
 	history=
 	{
-		owner = ARP
-		add_core_of = ARP
+		owner = JUG
+		add_core_of = JUG
 		buildings = {
 			infrastructure = 3
 			air_base = 1

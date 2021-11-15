@@ -7,8 +7,8 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = AZL
-		add_core_of = AZL
+		owner = ETR
+		add_core_of = ETR
 
 		buildings = {
 			infrastructure = 5

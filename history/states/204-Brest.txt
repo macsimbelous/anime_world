@@ -13,11 +13,11 @@ state={
 		victory_points = {
 			11313 1
 		}
-		owner = TOV
+		owner = GOP
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = TOV
+		add_core_of = GOP
 		
 	}
 

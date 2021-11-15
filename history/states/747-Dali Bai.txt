@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = IUD
-		add_core_of = IUD
+		owner = ROB
+		add_core_of = ROB
 
 		victory_points = {
 			7965 3 

@@ -6,8 +6,8 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = FMP
-		add_core_of = FMP
+		owner = GRU
+		add_core_of = GRU
 		
 		victory_points = {
 			10062 3 

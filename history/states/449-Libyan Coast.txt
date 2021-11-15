@@ -7,11 +7,11 @@ state={
 	state_category = enclave
 
 	history={
-		owner = FTI
+		owner = ESN
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = FTI
+		add_core_of = ESN
 	}
 
 	provinces={

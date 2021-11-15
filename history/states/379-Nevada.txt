@@ -13,11 +13,11 @@ state={
 	}
 
 	history={
-		owner = NAM
+		owner = APR
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = NAM
+		add_core_of = APR
 	}
 
 	provinces={

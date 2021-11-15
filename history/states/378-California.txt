@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = NAM
+		owner = APR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -32,7 +32,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = NAM
+		add_core_of = APR
 		victory_points = {
 			9814 30
 		}

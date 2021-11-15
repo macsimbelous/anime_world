@@ -9,11 +9,11 @@ state={
 	}
 
 	history={
-		owner = MAI
+		owner = VUG
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = MAI
+		add_core_of = VUG
 		victory_points = {
 			4860 1 
 		}

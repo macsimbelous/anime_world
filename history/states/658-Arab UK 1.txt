@@ -11,8 +11,8 @@ state={
 
 
 	history={
-		add_core_of = FGO
-		owner = FGO
+		add_core_of = JUS
+		owner = JUS
 		victory_points = {
 			7960 1 
 		}

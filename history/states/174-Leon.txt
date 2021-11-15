@@ -6,7 +6,7 @@ state={
 		tungsten=10.000
 	}
 	history={
-		owner = FF8
+		owner = SNE
 		victory_points = {
 			726 1
 		}
@@ -15,7 +15,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = FF8
+		add_core_of = SNE
 		add_claim_by = ECH
 	}
 

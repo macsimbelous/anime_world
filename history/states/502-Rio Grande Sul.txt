@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = XB2
+		owner = THE
 		buildings = {
 			infrastructure = 5
 			air_base = 2
@@ -15,7 +15,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = XB2
+		add_core_of = THE
 		victory_points = {
 			10447 3 
 		}

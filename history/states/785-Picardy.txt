@@ -13,8 +13,8 @@ state={
 		victory_points = {
 			11420 5
 		}
-		owner = FEA
-		add_core_of = FEA
+		owner = ESM
+		add_core_of = ESM
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1

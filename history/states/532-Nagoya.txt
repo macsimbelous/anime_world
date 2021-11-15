@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ARP
-		add_core_of = ARP
+		owner = JUG
+		add_core_of = JUG
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1

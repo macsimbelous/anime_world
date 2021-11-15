@@ -14,7 +14,7 @@ state={
 	}
 
 	history={
-		owner = MSN
+		owner = SHU
 		victory_points = {
 			12299 10
 		}
@@ -39,7 +39,7 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = MSN
+		add_core_of = SHU
 	}
 
 	provinces={

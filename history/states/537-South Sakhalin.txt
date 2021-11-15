@@ -9,8 +9,8 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = ISA
-		add_core_of = ISA
+		owner = FLI
+		add_core_of = FLI
 		
 		buildings = {
 			infrastructure = 3

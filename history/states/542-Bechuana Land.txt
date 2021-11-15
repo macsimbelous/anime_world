@@ -11,11 +11,11 @@ state={
 	}
 
 	history={
-		owner = DSG
+		owner = FLO
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = DSG
+		add_core_of = FLO
 		victory_points = {
 			8214 1
 		}

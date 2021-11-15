@@ -5,8 +5,8 @@ state={
 	state_category = town
 
 	history={
-		owner = SDK
-		add_core_of = SDK
+		owner = GEF
+		add_core_of = GEF
 		
 		victory_points = {
 			778 1 

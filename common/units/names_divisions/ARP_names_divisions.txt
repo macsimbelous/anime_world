@@ -30,18 +30,18 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-ARP_INF_01 = 
+JUG_INF_01 = 
 {
 	name = "Infantry Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Hohei Shidan"
 
@@ -220,18 +220,18 @@ ARP_INF_01 =
 	}
 }
 
-ARP_CAV_01 = 
+JUG_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Kihei Shidan"
 
@@ -262,18 +262,18 @@ ARP_CAV_01 =
 	}
 }
 
-ARP_MOT_01 = 
+JUG_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARP_INF_01 }
+	link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Jidoushaka Shidan"
 
@@ -446,18 +446,18 @@ ARP_MOT_01 =
 	}
 }
 
-ARP_MEC_01 = 
+JUG_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARP_INF_01 }
+	link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Kikaika Shidan"
 
@@ -630,18 +630,18 @@ ARP_MEC_01 =
 	}
 }
 
-ARP_ARM_01 = 
+JUG_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "Sensha Dai-%d Shidan"
 
@@ -682,18 +682,18 @@ ARP_ARM_01 =
 	}
 }
 
-ARP_PAR_01 = 
+JUG_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Kutei Shidan"
 
@@ -724,18 +724,18 @@ ARP_PAR_01 =
 	}
 }
 
-ARP_MAR_01 = 
+JUG_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Rikusentai"
 
@@ -770,18 +770,18 @@ ARP_MAR_01 =
 	}
 }
 
-ARP_MNT_01 = 
+JUG_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Mountain Division"
 
@@ -815,18 +815,18 @@ ARP_MNT_01 =
 	}
 }
 
-ARP_GAR_01 = 
+JUG_GAR_01 = 
 {
 	name = "Garrison Units"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Tokubetsu Keibitai"
 
@@ -879,18 +879,18 @@ ARP_GAR_01 =
 }
 
 
-ARP_IMB_01 = 
+JUG_IMB_01 = 
 {
 	name = "Mixed Brigade"
 
-	for_countries = { ARP }
+	for_countries = { JUG }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARP_INF_01 }
+	#link_numbering_with = { JUG_INF_01 }
 
 	fallback_name = "%d Dokuritsu Konsei Ryodan"
 

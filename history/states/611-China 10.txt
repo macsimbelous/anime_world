@@ -7,8 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BDP
-		add_core_of = BDP
+		owner = HAB
+		add_core_of = HAB
 		
 		buildings = {
 			infrastructure = 3

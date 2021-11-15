@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = MSM
-		add_core_of = MSM
+		owner = GRU
+		add_core_of = GRU
 
 		
 		buildings = {

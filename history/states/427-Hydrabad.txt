@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = DNT
-		add_core_of = DNT
+		owner = VES
+		add_core_of = VES
 		victory_points = {
 			8087 1
 		}

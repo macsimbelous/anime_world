@@ -7,11 +7,11 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MRN
+		owner = SAW
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = MRN
+		add_core_of = SAW
 	}
 
 	provinces={

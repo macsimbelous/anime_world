@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = ASK
-		add_core_of = ASK
+		owner = JUG
+		add_core_of = JUG
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

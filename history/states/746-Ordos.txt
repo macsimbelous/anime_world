@@ -9,8 +9,8 @@ state={
 	
 	history=
 	{
-		owner = BDP
-		add_core_of = BDP
+		owner = HAB
+		add_core_of = HAB
 
 		
 		buildings = {

@@ -12,7 +12,7 @@ state=
 
 	history=
 	{
-		owner = TNE
+		owner = VUB
 		victory_points = {
 			7371 1
 		}
@@ -28,7 +28,7 @@ state=
 				naval_base = 2
 			}
 		}
-		add_core_of = TNE
+		add_core_of = VUB
 	}
 
 	provinces={

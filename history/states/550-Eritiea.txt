@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = IMS
-		add_core_of = IMS
+		owner = TES
+		add_core_of = TES
 		victory_points = {
 			12766 1
 		}

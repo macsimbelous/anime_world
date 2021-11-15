@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = TYN
+		owner = UPR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TYN
+		add_core_of = UPR
 		
 		victory_points = {
 			3618 1

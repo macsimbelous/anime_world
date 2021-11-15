@@ -12,12 +12,12 @@ state={
 
 
 	history={
-		owner = LHZ
+		owner = UCR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = LHZ
+		add_core_of = UCR
 		victory_points = {
 			12489 1 
 		}

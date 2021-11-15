@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = IUD
-		add_core_of = IUD
+		owner = ROB
+		add_core_of = ROB
 
 		victory_points = {
 			1319 10 

@@ -11,14 +11,14 @@ state={
 	}
 	
 	history={
-		owner = MSR
+		owner = ESW
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
 		}
-		add_core_of = MSR
+		add_core_of = ESW
 		victory_points = {
 			1965 25
 		}

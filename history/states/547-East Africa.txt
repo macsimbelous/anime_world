@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = DGB
+		owner = LUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			5210 1
 		}
-		add_core_of = DGB
+		add_core_of = LUS
 	}
 
 	provinces={

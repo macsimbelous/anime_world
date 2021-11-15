@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = TOV
+		owner = GOP
 		victory_points = {
 			525 25
 		}
@@ -22,7 +22,7 @@ state={
 			fuel_silo = 1
 			air_base = 8
 		}
-		add_core_of = TOV
+		add_core_of = GOP
 		
 		1939.1.1 = {
 			buildings = {

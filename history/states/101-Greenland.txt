@@ -8,14 +8,14 @@ state=
 	
 	history=
 	{
-		owner = ONI
+		owner = OPL
 		buildings = {
 			infrastructure = 1
 			12512 ={
 				naval_base = 1
 			}
 		}
-		add_core_of = ONI
+		add_core_of = OPL
 	}
 	provinces=
 	{

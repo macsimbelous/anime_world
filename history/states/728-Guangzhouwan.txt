@@ -6,8 +6,8 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = SHY
-		add_core_of = SHY
+		owner = FLE
+		add_core_of = FLE
 
 		buildings = {
 			infrastructure = 3

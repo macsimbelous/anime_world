@@ -1,4 +1,4 @@
-﻿ARP = {
+﻿JUG = {
 	submarine = {
 		prefix = ""
 		generic = { "Sensuikan" }

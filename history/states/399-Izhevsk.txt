@@ -9,11 +9,11 @@ state={
 	}
 
 	history={
-		owner = TOA
+		owner = ROS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TOA
+		add_core_of = ROS
 	}
 
 	provinces={

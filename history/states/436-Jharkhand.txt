@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = SLM
-		add_core_of = SLM
+		owner = VES
+		add_core_of = VES
 		buildings = {
 			infrastructure = 4
 		}

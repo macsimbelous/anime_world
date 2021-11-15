@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = LHZ
+		owner = UCR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -16,7 +16,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = LHZ
+		add_core_of = UCR
 		victory_points = {
 			12384 10 
 		}

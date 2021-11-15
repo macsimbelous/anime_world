@@ -7,8 +7,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = F15
-		add_core_of = F15
+		owner = PEB
+		add_core_of = PEB
 		add_claim_by = ECH
 		victory_points = {
 			9764 30

@@ -26,25 +26,25 @@ difficulty_settings = {
 	difficulty_setting = {
 		key = "custom_diff_strong_eng"
 		modifier = diff_strong_ai_generic
-		countries = { TMN }
+		countries = { PLA }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_usa"
 		modifier = diff_strong_ai_generic
-		countries = { OVL }
+		countries = { JOS }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_jap"
 		modifier = diff_strong_ai_generic
-		countries = { ARP }
+		countries = { JUG }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_chi"
 		modifier = diff_strong_ai_generic
-		countries = { DXD }
+		countries = { SME }
 		multiplier = 2.0
 	}
 }

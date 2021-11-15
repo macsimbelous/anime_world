@@ -7,11 +7,11 @@ state=
 	state_category = enclave
 	
 	history = {	
-		owner = CYM
+		owner = PAS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = CYM
+		add_core_of = PAS
 
 		victory_points = {
 			197 1

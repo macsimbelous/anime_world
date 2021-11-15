@@ -7,8 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MSL
-		add_core_of = MSL
+		owner = SHO
+		add_core_of = SHO
 		buildings = {
 			infrastructure = 2
 			12885 = {

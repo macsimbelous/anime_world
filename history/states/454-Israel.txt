@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = FTI
+		owner = ESN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -25,7 +25,7 @@ state={
 		victory_points = {
 			1065 1 
 		}
-		add_core_of = FTI
+		add_core_of = ESN
 		
 	}
 

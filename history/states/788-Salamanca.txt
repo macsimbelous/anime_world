@@ -6,7 +6,7 @@ state={
 		tungsten=10.000 #added due to Portugal Setup
 	}
 	history={
-		owner = FF7
+		owner = OBR
 		victory_points = {
 			3874 1 
 		}
@@ -14,7 +14,7 @@ state={
 			infrastructure = 5
 
 		}
-		add_core_of = FF7
+		add_core_of = OBR
 		add_claim_by = ECH
 	}
 
