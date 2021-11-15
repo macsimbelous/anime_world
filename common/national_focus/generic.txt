@@ -2407,6 +2407,9 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 	focus = {
 		id = wfc_political_commissars
@@ -2473,6 +2476,9 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	focus = {
