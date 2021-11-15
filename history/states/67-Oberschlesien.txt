@@ -17,11 +17,11 @@ state={
 		victory_points = {
 			9511 3
 		}
-		owner = FEF
+		owner = ESH
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = FEF
+		add_core_of = ESH
 	}
 
 	provinces={

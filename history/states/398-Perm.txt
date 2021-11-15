@@ -19,7 +19,7 @@ state={
 			7375 1 
 		}
 		add_core_of = TOG
-		add_claim_by = MMY
+		add_claim_by = DRD
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

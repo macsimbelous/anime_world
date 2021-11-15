@@ -11,12 +11,12 @@ state={
 		victory_points = {
 			9388 1
 		}
-		owner = FEF
+		owner = ESH
 		buildings = {
 			infrastructure = 6
 			fuel_silo = 1
 		}
-		add_core_of = FEF
+		add_core_of = ESH
 
 		1939.1.1 = {
 			buildings = {

@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = EVA
-		add_core_of = EVA
+		owner = ASK
+		add_core_of = ASK
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

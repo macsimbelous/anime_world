@@ -146,14 +146,14 @@ air_wings = {
 	113 = { 
 		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
 		fighter_equipment_0 = {
-			owner = "HDN" 
+			owner = "BRL" 
 			amount = 200
 		}
 	}
 	119 = { 
 		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
-			owner = "HDN" 
+			owner = "BRL" 
 			amount = 100
 		}
 	}
@@ -163,7 +163,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "HDN"
+			creator = "BRL"
 		}
 		requested_factories = 3
 		progress = 0.87
@@ -172,7 +172,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "HDN"
+			creator = "BRL"
 		}
 		requested_factories = 2
 		progress = 0.6
@@ -181,7 +181,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "HDN"
+			creator = "BRL"
 		}
 		requested_factories = 1
 		progress = 0.5
@@ -190,7 +190,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_0
-			creator = "HDN" 
+			creator = "BRL" 
 		}
 		requested_factories = 1
 		progress = 0.15
@@ -200,7 +200,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = tac_bomber_equipment_0
-			creator = "HDN" 
+			creator = "BRL" 
 		}
 		requested_factories = 1
 		progress = 0.1

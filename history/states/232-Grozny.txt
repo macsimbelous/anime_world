@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = DGD
+		owner = EFR
 		buildings = {
 			infrastructure = 4
 		}
@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			6701 3 
 		}
-		add_core_of = DGD
+		add_core_of = EFR
 	}
 
 	provinces={

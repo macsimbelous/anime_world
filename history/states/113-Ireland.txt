@@ -12,7 +12,7 @@ state={
 	state_category = megalopolis
 	
 	history={
-		owner = HDN
+		owner = BRL
 		victory_points = {
 			11293 5 
 		}
@@ -26,7 +26,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = HDN
+		add_core_of = BRL
 	}
 
 	provinces={

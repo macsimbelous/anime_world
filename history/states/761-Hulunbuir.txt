@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = MMY
-		add_core_of = MMY
+		owner = DRD
+		add_core_of = DRD
 
 		buildings = {
 			infrastructure = 4

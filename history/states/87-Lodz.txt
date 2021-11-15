@@ -5,7 +5,7 @@ state={
 	
 	state_category = town
 	history={
-		owner = DIF
+		owner = AFR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -13,7 +13,7 @@ state={
 		victory_points = {
 			9508 10
 		}
-		add_core_of = DIF
+		add_core_of = AFR
 
 		1939.1.1 = {
 			buildings = {

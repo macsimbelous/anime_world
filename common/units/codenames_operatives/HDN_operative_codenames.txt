@@ -1,9 +1,9 @@
 ﻿#British Operative list
-HDN_OPERATIVE_CODENAME_HISTORICAL = {
+BRL_OPERATIVE_CODENAME_HISTORICAL = {
 	name = ENG_HISTORICAL_OPERATIVES
 
 	# for all English countries
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	type = codename
 

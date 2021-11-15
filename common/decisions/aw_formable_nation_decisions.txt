@@ -50,7 +50,7 @@ form_greater_final_fantasy_xiii_reich_category = {
 				controls_state = 171
 				controls_state = 790
 			}
-			# FF9
+			# DUT
 			custom_trigger_tooltip = {
 				tooltip = form_gff13r_ff9_required_states_tt
 				controls_state = 19
@@ -170,7 +170,7 @@ form_greater_final_fantasy_xiii_reich_category = {
 					add_core_of = ROOT
 				}
 			}
-			# FF9
+			# DUT
 			custom_effect_tooltip = form_gff13r_ff9_coring_states_tt
 			hidden_effect = {
 				19 = {

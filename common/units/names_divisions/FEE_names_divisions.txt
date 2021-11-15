@@ -30,18 +30,18 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-FEE_INF_01 = 
+ACL_INF_01 = 
 {
 	name = "Infantry Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division d'Infanterie"
 
@@ -199,18 +199,18 @@ FEE_INF_01 =
 	}
 }
 
-FEE_CAV_01 = 
+ACL_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division de Cavalerie"
 
@@ -241,18 +241,18 @@ FEE_CAV_01 =
 	}
 }
 
-FEE_MOT_01 = 
+ACL_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { FEE_INF_01 }
+	link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Div. d'Infanterie Motorisée"
 
@@ -300,18 +300,18 @@ FEE_MOT_01 =
 	}
 }
 
-FEE_MEC_01 = 
+ACL_MEC_01 = 
 {
 	name = "Light Mechanized Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "mechanized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division Légère Mécanique"
 
@@ -352,18 +352,18 @@ FEE_MEC_01 =
 	}
 }
 
-FEE_DLC_01 = 
+ACL_DLC_01 = 
 {
 	name = "Light Cavalry Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" "cavalry" "mechanized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Div. Légère de Cavalerie"
 
@@ -404,18 +404,18 @@ FEE_DLC_01 =
 	}
 }
 
-FEE_ARM_01 = 
+ACL_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division Cuirassée"
 
@@ -469,18 +469,18 @@ FEE_ARM_01 =
 	}
 }
 
-FEE_ARM_02 = 
+ACL_ARM_02 = 
 {
 	name = "Tank Brigade"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Brigade Cuirassée"
 
@@ -534,18 +534,18 @@ FEE_ARM_02 =
 	}
 }
 
-FEE_ARM_03 = 
+ACL_ARM_03 = 
 {
 	name = "Armored Division (late)"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "medium_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { FEE_ARM_01 }
+	link_numbering_with = { ACL_ARM_01 }
 
 	fallback_name = "%dème Division Blindée"
 
@@ -599,18 +599,18 @@ FEE_ARM_03 =
 	}
 }
 
-FEE_PAR_01 = 
+ACL_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division Parachutiste"
 
@@ -635,18 +635,18 @@ FEE_PAR_01 =
 	}
 }
 
-FEE_MAR_01 = 
+ACL_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Div. d'Infanterie de Marine"
 
@@ -677,18 +677,18 @@ FEE_MAR_01 =
 	}
 }
 
-FEE_MNT_01 = 
+ACL_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { FEE_INF_01 }
+	link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division d'Infanterie Alpine"
 
@@ -736,18 +736,18 @@ FEE_MNT_01 =
 	}
 }
 
-FEE_GAR_01 = 
+ACL_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { FEE_INF_01 }
+	link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème Division de Forteresse"
 
@@ -822,18 +822,18 @@ FEE_GAR_01 =
 	}
 }
 
-FEE_COL_01 = 
+ACL_COL_01 = 
 {
 	name = "Colonial Division"
 
-	for_countries = { FEE }
+	for_countries = { ACL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEE_INF_01 }
+	#link_numbering_with = { ACL_INF_01 }
 
 	fallback_name = "%dème d'Infanterie Coloniale"
 

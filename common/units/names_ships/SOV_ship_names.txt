@@ -1,9 +1,9 @@
 ﻿##### USSR NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-MMY_DD_HISTORICAL = {
+DRD_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -31,10 +31,10 @@ MMY_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-MMY_CL_HISTORICAL = {
+DRD_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -52,10 +52,10 @@ MMY_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-MMY_CA_HISTORICAL = {
+DRD_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -72,10 +72,10 @@ MMY_CA_HISTORICAL = {
 
 
 ### MINELAYER NAMES###
-MMY_MINELAYERS_HISTORICAL = {
+DRD_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -91,10 +91,10 @@ MMY_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-MMY_BB_HISTORICAL = {
+DRD_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -109,10 +109,10 @@ MMY_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-MMY_BC_HISTORICAL = {
+DRD_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -128,10 +128,10 @@ MMY_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-MMY_CV_HISTORICAL = {
+DRD_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -145,10 +145,10 @@ MMY_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-MMY_SS_SHCHUKA = {
+DRD_SS_SHCHUKA = {
 	name = NAME_THEME_HISTORICAL_SHCHUKAS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -251,10 +251,10 @@ MMY_SS_SHCHUKA = {
 	}
 }
 
-MMY_SS_STALINETS = {
+DRD_SS_STALINETS = {
 	name = NAME_THEME_HISTORICAL_STALINETS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -285,10 +285,10 @@ MMY_SS_STALINETS = {
 	}
 }
 
-MMY_SS_LENINETS = {
+DRD_SS_LENINETS = {
 	name = NAME_THEME_HISTORICAL_LENINETS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -319,11 +319,11 @@ MMY_SS_LENINETS = {
 	}
 }
 
-### THEME: MMYIET REGIONS ###
-MMY_STATES = {
+### THEME: DRDIET REGIONS ###
+DRD_STATES = {
 	name = NAME_THEME_STATES
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 
@@ -332,11 +332,11 @@ MMY_STATES = {
 	}
 }
 
-## THEME: MMYIET CITIES ###
-MMY_CITIES = {
+## THEME: DRDIET CITIES ###
+DRD_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 
@@ -346,11 +346,11 @@ MMY_CITIES = {
 	}
 }
 
-## THEME: FAMOUS MMYIET LEADERS ###
-MMY_LEADERS = {
+## THEME: FAMOUS DRDIET LEADERS ###
+DRD_LEADERS = {
 	name = NAME_THEME_LEADERS
 
-	for_countries = { MMY }
+	for_countries = { DRD }
 
 	type = ship
 

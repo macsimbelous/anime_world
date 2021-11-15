@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = HDN
+		owner = BRL
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			7394 1 
 		}
-		add_core_of = HDN
+		add_core_of = BRL
 	}
 
 	provinces={

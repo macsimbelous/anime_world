@@ -30,17 +30,17 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-HDN_INF_01 = {
+BRL_INF_01 = {
 	name = "Infantry Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -167,17 +167,17 @@ HDN_INF_01 = {
 	}
 }
 
-HDN_INF_02 = {
+BRL_INF_02 = {
 	name = "Infantry Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_02 }
+	#link_numbering_with = { BRL_INF_02 }
 
 	fallback_name = "%d Infantry Brigade"
 
@@ -218,17 +218,17 @@ HDN_INF_02 = {
 	}
 }
 
-HDN_INF_03 = { 
+BRL_INF_03 = { 
 	name = "Light Division" 
 
-	for_countries = { HDN } 
+	for_countries = { BRL } 
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" "mechanized" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_03 } 
+	#link_numbering_with = { BRL_INF_03 } 
 
 	fallback_name = "%d (Light) Division" 
 
@@ -268,17 +268,17 @@ HDN_INF_03 = {
 	} 
 }
 
-HDN_CAV_01 = {
+BRL_CAV_01 = {
 	name = "Cavalry Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Cavalry Division"
 
@@ -319,17 +319,17 @@ HDN_CAV_01 = {
 	}
 }
 
-HDN_CAV_02 = {
+BRL_CAV_02 = {
 	name = "Cavalry Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_CAV_02 }
+	#link_numbering_with = { BRL_CAV_02 }
 
 	fallback_name = "%d Cavalry Brigade"
 
@@ -370,17 +370,17 @@ HDN_CAV_02 = {
 	}
 }
 
-HDN_MOT_01 = {
+BRL_MOT_01 = {
 	name = "Motorised Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HDN_INF_01 }
+	link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -480,17 +480,17 @@ HDN_MOT_01 = {
 	}
 }
 
-HDN_MOT_02 = {
+BRL_MOT_02 = {
 	name = "Motor Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_MOT_01 }
+	#link_numbering_with = { BRL_MOT_01 }
 
 	fallback_name = "%d Motor Division"
 
@@ -531,17 +531,17 @@ HDN_MOT_02 = {
 	}
 }
 
-HDN_MEC_01 = {
+BRL_MEC_01 = {
 	name = "Mechanised Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HDN_INF_01 }
+	link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -641,17 +641,17 @@ HDN_MEC_01 = {
 	}
 }
 
-HDN_ARM_01 = {
+BRL_ARM_01 = {
 	name = "Armoured Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Armoured Division"
 
@@ -695,17 +695,17 @@ HDN_ARM_01 = {
 	}
 }
 
-HDN_ARM_02 = {
+BRL_ARM_02 = {
 	name = "Tank Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_ARM_02 }
+	#link_numbering_with = { BRL_ARM_02 }
 
 	fallback_name = "%d Army Tank Brigade"
 
@@ -748,17 +748,17 @@ HDN_ARM_02 = {
 	}
 }
 
-HDN_ARM_03 = {
+BRL_ARM_03 = {
 	name = "Heavy Armoured Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "heavy_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_ARM_03 }
+	#link_numbering_with = { BRL_ARM_03 }
 
 	fallback_name = "%d Heavy Armoured Brigade"
 
@@ -799,17 +799,17 @@ HDN_ARM_03 = {
 	}
 }
 
-HDN_PAR_01 = {
+BRL_PAR_01 = {
 	name = "Airborne Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Airborne Division"
 
@@ -850,17 +850,17 @@ HDN_PAR_01 = {
 	}
 }
 
-HDN_PAR_02 = {
+BRL_PAR_02 = {
 	name = "Parachute Regiment"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_PAR_02 }
+	#link_numbering_with = { BRL_PAR_02 }
 
 	fallback_name = "%d Parachute Regiment"
 
@@ -901,17 +901,17 @@ HDN_PAR_02 = {
 	}
 }
 
-HDN_MAR_01 = {
+BRL_MAR_01 = {
 	name = "Royal Marines Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Royal Marines Division"
 
@@ -952,17 +952,17 @@ HDN_MAR_01 = {
 	}
 }
 
-HDN_MNT_01 = {
+BRL_MNT_01 = {
 	name = "Mountain Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HDN_INF_01 }
+	link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -1016,14 +1016,14 @@ HDN_MNT_01 = {
 	}
 }
 
-HDN_MNT_02 = { 
+BRL_MNT_02 = { 
 	name = "Gurkha Division" 
 
-	for_countries = { HDN  } 
+	for_countries = { BRL  } 
 
 	can_use = {
 		OR = {
-			tag = HDN
+			tag = BRL
 
 		}
 	}
@@ -1031,7 +1031,7 @@ HDN_MNT_02 = {
 	division_types = { "mountaineers" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_MNT_02 } 
+	#link_numbering_with = { BRL_MNT_02 } 
 
 	fallback_name = "%d Gurkha Division" 
 
@@ -1071,17 +1071,17 @@ HDN_MNT_02 = {
 	} 
 }
 
-HDN_GAR_01 = {
+BRL_GAR_01 = {
 	name = "Garrison Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Garrison Division"
 
@@ -1153,10 +1153,10 @@ HDN_GAR_01 = {
 	}
 }
 
-HDN_COL_01 = {
+BRL_COL_01 = {
 	name = "Colonial Division"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = {
 
@@ -1165,7 +1165,7 @@ HDN_COL_01 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HDN_INF_01 }
+	link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d (Africa) Division"
 
@@ -1221,17 +1221,17 @@ HDN_COL_01 = {
 	}
 }
 
-HDN_AIR_01 = { 
+BRL_AIR_01 = { 
 	name = "Anti-Aircraft Division" 
 
-	for_countries = { HDN } 
+	for_countries = { BRL } 
 
 	can_use = { always = yes } 
 
 	division_types = { "infantry" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_AIR_01 } 
+	#link_numbering_with = { BRL_AIR_01 } 
 
 	fallback_name = "%d Anti-Aircraft Division" 
 
@@ -1291,18 +1291,18 @@ HDN_AIR_01 = {
 	} 
 }
 
-HDN_DEM_01 = 
+BRL_DEM_01 = 
 {
 	name = "Loyalist Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes } # used to populate spawned divisions in civil war
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Loyalist Brigade"
 
@@ -1343,18 +1343,18 @@ HDN_DEM_01 =
 	}
 }
 
-HDN_FAS_01 = 
+BRL_FAS_01 = 
 {
 	name = "Blackshirt Brigade"
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { always = yes } # used to populate divisions spawned in civil war
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HDN_INF_01 }
+	#link_numbering_with = { BRL_INF_01 }
 
 	fallback_name = "%d Blackshirt Brigade"
 

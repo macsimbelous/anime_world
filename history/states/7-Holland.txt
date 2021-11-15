@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = FET
-		add_core_of = FET
+		owner = APL
+		add_core_of = APL
 		victory_points = {
 			391 40 
 		}

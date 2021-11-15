@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = FTA
+		owner = AST
 		victory_points = {
 			7661 10 
 		}
@@ -19,7 +19,7 @@ state={
 			fuel_silo = 1
 			air_base = 1
 		}
-		add_core_of = FTA
+		add_core_of = AST
 		
 
 	}

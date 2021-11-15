@@ -1,9 +1,9 @@
 ﻿##### Britain NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-HDN_DD_HISTORICAL = {
+BRL_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = {
 		not = { has_government = communism }
@@ -58,10 +58,10 @@ HDN_DD_HISTORICAL = {
 }
 
 ### DESTROYER ESCORT NAMES###
-HDN_DE_HISTORICAL = {
+BRL_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -96,10 +96,10 @@ HDN_DE_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-HDN_CL_HISTORICAL = {
+BRL_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -127,10 +127,10 @@ HDN_CL_HISTORICAL = {
 }
 
 ### A-A LIGHT CRUISER NAMES###
-HDN_CLAA_HISTORICAL = {
+BRL_CLAA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CLAA
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -154,10 +154,10 @@ HDN_CLAA_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-HDN_CA_HISTORICAL = {
+BRL_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -181,10 +181,10 @@ HDN_CA_HISTORICAL = {
 
 
 ### MINELAYER NAMES###
-HDN_MINELAYERS_HISTORICAL = {
+BRL_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -205,10 +205,10 @@ HDN_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-HDN_BB_HISTORICAL = {
+BRL_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -229,10 +229,10 @@ HDN_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-HDN_BC_HISTORICAL = {
+BRL_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -251,10 +251,10 @@ HDN_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-HDN_CV_HISTORICAL = {
+BRL_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -275,10 +275,10 @@ HDN_CV_HISTORICAL = {
 }
 
 ### LIGHT CARRIER NAMES ###
-HDN_CVL_HISTORICAL = {
+BRL_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -300,10 +300,10 @@ HDN_CVL_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-HDN_SS_HISTORICAL = {
+BRL_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -344,10 +344,10 @@ HDN_SS_HISTORICAL = {
 
 
 ### THEME: BRITISH COUNTIES ###
-HDN_COUNTIES = {
+BRL_COUNTIES = {
 	name = NAME_THEME_COUNTIES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -373,10 +373,10 @@ HDN_COUNTIES = {
 }
 
 ## THEME: BRITISH CITIES ###
-HDN_CITIES = {
+BRL_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -398,10 +398,10 @@ HDN_CITIES = {
 }
 
 ## THEME: BRITISH COLONIES ###
-HDN_COLONIES = {
+BRL_COLONIES = {
 	name = NAME_THEME_COLONIES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		not = { has_government = communism }
@@ -416,10 +416,10 @@ HDN_COLONIES = {
 }
 
 ## THEME: BRITISH KINGS ###
-HDN_KINGS = {
+BRL_KINGS = {
 	name = NAME_THEME_KINGS # 1066 - 1936
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		NOT = { has_government = communism }
@@ -440,10 +440,10 @@ HDN_KINGS = {
 }
 
 ## THEME: BRITISH BATTLES ###
-HDN_BATTLES = {
+BRL_BATTLES = {
 	name = NAME_THEME_BATTLES # 878 - 1916
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		NOT = { has_government = communism }
@@ -462,10 +462,10 @@ HDN_BATTLES = {
 }
 
 ## THEME: BRITISH RIVERS ###
-HDN_RIVERS = {
+BRL_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		NOT = { has_government = communism }
@@ -483,10 +483,10 @@ HDN_RIVERS = {
 }
 
 ## THEME: BRITISH MYTHOLOGY ###
-HDN_MYTHOLOGY = {
+BRL_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		NOT = { has_government = communism }
@@ -509,10 +509,10 @@ HDN_MYTHOLOGY = {
 
 ##### Britain NAME LISTS COMMUNISM #####
 ### REGULAR DESTROYER NAMES###
-HDN_DD_COMMUNIST = {
+BRL_DD_COMMUNIST = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -567,10 +567,10 @@ HDN_DD_COMMUNIST = {
 }
 
 ### DESTROYER ESCORT NAMES###
-HDN_DE_COMMUNISM = {
+BRL_DE_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -605,10 +605,10 @@ HDN_DE_COMMUNISM = {
 }
 
 ### LIGHT CRUISER NAMES###
-HDN_CL_COMMUNISM = {
+BRL_CL_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -636,10 +636,10 @@ HDN_CL_COMMUNISM = {
 }
 
 ### A-A LIGHT CRUISER NAMES###
-HDN_CLAA_COMMUNISM = {
+BRL_CLAA_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_CLAA
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -663,10 +663,10 @@ HDN_CLAA_COMMUNISM = {
 }
 
 ### HEAVY CRUISER NAMES###
-HDN_CA_COMMUNISM = {
+BRL_CA_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -690,10 +690,10 @@ HDN_CA_COMMUNISM = {
 
 
 ### MINELAYER NAMES###
-HDN_MINELAYERS_COMMUNISM = {
+BRL_MINELAYERS_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -714,10 +714,10 @@ HDN_MINELAYERS_COMMUNISM = {
 }
 
 ### BATTLESHIP NAMES ###
-HDN_BB_COMMUNISM = {
+BRL_BB_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -738,10 +738,10 @@ HDN_BB_COMMUNISM = {
 }
 
 ### BATTLECRUISER NAMES ###
-HDN_BC_COMMUNISM = {
+BRL_BC_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -760,10 +760,10 @@ HDN_BC_COMMUNISM = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-HDN_CV_COMMUNISM = {
+BRL_CV_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -784,10 +784,10 @@ HDN_CV_COMMUNISM = {
 }
 
 ### LIGHT CARRIER NAMES ###
-HDN_CVL_COMMUNISM = {
+BRL_CVL_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -809,10 +809,10 @@ HDN_CVL_COMMUNISM = {
 }
 
 ### SUBMARINES ###
-HDN_SS_COMMUNISM= {
+BRL_SS_COMMUNISM= {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -853,10 +853,10 @@ HDN_SS_COMMUNISM= {
 
 
 ### THEME: BRITISH COUNTIES ###
-HDN_COUNTIES_COMMUNIST = {
+BRL_COUNTIES_COMMUNIST = {
 	name = NAME_THEME_COUNTIES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -883,10 +883,10 @@ HDN_COUNTIES_COMMUNIST = {
 }
 
 ## THEME: BRITISH CITIES ###
-HDN_CITIES_COMMUNIST = {
+BRL_CITIES_COMMUNIST = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -909,10 +909,10 @@ HDN_CITIES_COMMUNIST = {
 }
 
 ## THEME: BRITISH ADMIRALS ###
-HDN_ADMIRALS_COMMUNIST = {
+BRL_ADMIRALS_COMMUNIST = {
 	name = NAME_THEME_ADMIRALS # 1649 - 1665
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -929,10 +929,10 @@ HDN_ADMIRALS_COMMUNIST = {
 }
 
 ## THEME: BRITISH BATTLES ###
-HDN_BATTLES_COMMUNIST = {
+BRL_BATTLES_COMMUNIST = {
 	name = NAME_THEME_BATTLES # 1642 - 1651
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism
@@ -953,10 +953,10 @@ HDN_BATTLES_COMMUNIST = {
 }
 
 ## THEME: BRITISH RIVERS ###
-HDN_RIVERS_COMMUNIST = {
+BRL_RIVERS_COMMUNIST = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { HDN }
+	for_countries = { BRL }
 
 	can_use = { 
 		has_government = communism

@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = SWC
+		owner = EPL
 		victory_points = {
 			6657 5
 		}
@@ -22,7 +22,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = SWC
+		add_core_of = EPL
 	}
 
 	provinces={

@@ -23,7 +23,7 @@ state={
 			}
 		}
 		add_core_of = FF8
-		add_claim_by = F13
+		add_claim_by = ECH
 	}
 
 	provinces={

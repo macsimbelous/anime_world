@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = FTA
+		owner = AST
 		buildings = {
 			infrastructure = 3
 		}
@@ -24,7 +24,7 @@ state={
 		victory_points = {
 			6826 1
 		}
-		add_core_of = FTA
+		add_core_of = AST
 		
 	}
 	

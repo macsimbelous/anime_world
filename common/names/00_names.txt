@@ -250,7 +250,7 @@ CSA = {
 	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
 }
 
-HDN = {
+BRL = {
 	male = {
 		names = { 
 			Aritomo

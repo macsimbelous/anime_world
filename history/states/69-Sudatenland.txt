@@ -20,7 +20,7 @@ state=
 		victory_points = {
 			11401 3
 		}
-		owner = FEE
+		owner = ACL
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
@@ -55,7 +55,7 @@ state=
 			}
 
 		}
-		add_core_of = FEE
+		add_core_of = ACL
 
 
 	}

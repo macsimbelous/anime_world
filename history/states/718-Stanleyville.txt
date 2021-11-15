@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = SNH
+		owner = ASM
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SNH
+		add_core_of = ASM
 	}
 
 	provinces={

@@ -1,7 +1,7 @@
 armor_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 
@@ -488,7 +488,7 @@ armor_generic = {
 garrison_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 	
@@ -675,7 +675,7 @@ suppression_generic = {
 infantry_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 
@@ -780,7 +780,7 @@ infantry_generic = {
 infantry_big_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 
@@ -902,7 +902,7 @@ infantry_big_generic = {
 mountaineers_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 
@@ -1007,7 +1007,7 @@ mountaineers_generic = {
 marines_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 
@@ -1193,7 +1193,7 @@ marines_generic = {
 paratrooper_generic = {
 
 	blocked_for = {
-		HDN
+		BRL
 		
 	}
 

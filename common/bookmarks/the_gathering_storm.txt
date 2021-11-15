@@ -4,10 +4,10 @@ bookmarks = {
 		desc = "AW_desc"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "HDN"
+		default_country = "BRL"
 		default = yes
-		"HDN" = {
-			history = "HDN_GATHERING_STORM_DESC"
+		"BRL" = {
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
 				free_trade
@@ -18,8 +18,8 @@ bookmarks = {
 				
 			}
 		}
-		"F13" = {
-			history = "HDN_GATHERING_STORM_DESC"
+		"ECH" = {
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 				free_trade
@@ -30,8 +30,8 @@ bookmarks = {
 				
 			}
 		}
-		"MMY" = {
-			history = "HDN_GATHERING_STORM_DESC"
+		"DRD" = {
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				free_trade
@@ -42,8 +42,8 @@ bookmarks = {
 				
 			}
 		}
-		"FEF" = {
-			history = "HDN_GATHERING_STORM_DESC"
+		"ESH" = {
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				free_trade
@@ -55,7 +55,7 @@ bookmarks = {
 			}
 		}
 		"TMN" = {
-			history = "HDN_GATHERING_STORM_DESC"
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				free_trade
@@ -67,7 +67,7 @@ bookmarks = {
 			}
 		}
 		"TOB" = {
-			history = "HDN_GATHERING_STORM_DESC"
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				free_trade
@@ -79,7 +79,7 @@ bookmarks = {
 			}
 		}
 		"ARP" = {
-			history = "HDN_GATHERING_STORM_DESC"
+			history = "BRL_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
 				free_trade
@@ -120,7 +120,7 @@ bookmarks = {
 				
 			}
 		}
-		"DIF" = {
+		"AFR" = {
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -159,7 +159,7 @@ bookmarks = {
 				
 			}
 		}
-		"FET" = {
+		"APL" = {
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -185,7 +185,7 @@ bookmarks = {
 				
 			}
 		}
-		"GBS" = {
+		"EFL" = {
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
 			ideology = democratic

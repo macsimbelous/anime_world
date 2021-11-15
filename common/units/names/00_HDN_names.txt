@@ -1,4 +1,4 @@
-﻿HDN = {
+﻿BRL = {
 	submarine = {
 		prefix = "HMS"
 		generic = { "Submarine" }

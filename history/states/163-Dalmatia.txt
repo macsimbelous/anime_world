@@ -7,14 +7,14 @@ state=
 	state_category = enclave
 	
 	history={
-		owner = ACW
+		owner = CHU
 		buildings = {
 			infrastructure = 5
 			3943 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ACW
+		add_core_of = CHU
 
 	} 
 	provinces={	

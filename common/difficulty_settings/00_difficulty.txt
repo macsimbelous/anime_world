@@ -2,25 +2,25 @@ difficulty_settings = {
 	difficulty_setting = {
 		key = "custom_diff_strong_ger"
 		modifier = diff_strong_ai_generic
-		countries = { HDN }
+		countries = { BRL }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_ita"
 		modifier = diff_strong_ai_generic
-		countries = { F13 }
+		countries = { ECH }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_sov"
 		modifier = diff_strong_ai_generic
-		countries = { MMY }
+		countries = { DRD }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
 		key = "custom_diff_strong_fra"
 		modifier = diff_strong_ai_generic
-		countries = { STO }
+		countries = { AWH }
 		multiplier = 2.0
 	}
 	difficulty_setting = {

@@ -31,18 +31,18 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-FEF_Inf_01 = 
+ESH_Inf_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { FEF_Gar_01 }
+	#link_numbering_with = { ESH_Gar_01 }
 
 	fallback_name = "%d. Infanterie-Division"
 
@@ -374,11 +374,11 @@ FEF_Inf_01 =
 	}
 }
 
-FEF_ALTINF_01 = 
+ESH_ALTINF_01 = 
 {
 	name = "Late/Alternate Infantry Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -386,7 +386,7 @@ FEF_ALTINF_01 =
 
 	fallback_name = "%d. Volksgrenadier-Division"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -459,11 +459,11 @@ FEF_ALTINF_01 =
 }
 
 
-FEF_LTINF_01 = 
+ESH_LTINF_01 = 
 {
 	name = "Light Infantry Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -471,7 +471,7 @@ FEF_LTINF_01 =
 
 	fallback_name = "%d. Jäger-Division"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -494,11 +494,11 @@ FEF_LTINF_01 =
 	}
 }
 
-FEF_MOT_01 = 
+ESH_MOT_01 = 
 {
 	name = "Motorized Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = {
 		OR = {
@@ -512,7 +512,7 @@ FEF_MOT_01 =
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -540,11 +540,11 @@ FEF_MOT_01 =
 }
 
 #Nazi Motorized
-FEF_MOT_02 = 
+ESH_MOT_02 = 
 {
 	name = "Motorized Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { has_government = fascism }
 
@@ -552,7 +552,7 @@ FEF_MOT_02 =
 
 	fallback_name = "%d. Infanterie-Division (mot)"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -580,11 +580,11 @@ FEF_MOT_02 =
 	}
 }
 
-FEF_MEC_01 = 
+ESH_MEC_01 = 
 {
 	name = "Panzergrenadier Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -592,7 +592,7 @@ FEF_MEC_01 =
 
 	fallback_name = "%d. Panzergrenadier-Division"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -619,11 +619,11 @@ FEF_MEC_01 =
 	}
 }
 
-FEF_Mnt_01 = 
+ESH_Mnt_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -651,11 +651,11 @@ FEF_Mnt_01 =
 	}
 }
 
-FEF_MAR_01 = 
+ESH_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -677,11 +677,11 @@ FEF_MAR_01 =
 	}
 }
 
-FEF_PAR_01 = 
+ESH_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -711,11 +711,11 @@ FEF_PAR_01 =
 	}
 }
 
-FEF_GAR_01 = 
+ESH_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -723,7 +723,7 @@ FEF_GAR_01 =
 
 	fallback_name = "%d. Sicherungs-Division"
 
-	link_numbering_with = { FEF_Inf_01 }
+	link_numbering_with = { ESH_Inf_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -824,11 +824,11 @@ FEF_GAR_01 =
 
 
 
-FEF_Arm_01 = 
+ESH_Arm_01 = 
 {
 	name = "Panzer Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -888,11 +888,11 @@ FEF_Arm_01 =
 	}
 }
 
-FEF_LTARM_01 = 
+ESH_LTARM_01 = 
 {
 	name = "Light Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -900,7 +900,7 @@ FEF_LTARM_01 =
 
 	fallback_name = "%d. leichte-Division"
 	
-	link_numbering_with = { FEF_Arm_01 }
+	link_numbering_with = { ESH_Arm_01 }
 
 	# Names with numbers (only one number per entry)
 	ordered =
@@ -916,11 +916,11 @@ FEF_LTARM_01 =
 	}
 }
 
-FEF_Cav_01 = 
+ESH_Cav_01 = 
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { always = yes }
 
@@ -942,11 +942,11 @@ FEF_Cav_01 =
 	
 }
 
-FEF_SS_01 = 
+ESH_SS_01 = 
 {
 	name = "SS Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 		has_government = fascism
@@ -998,11 +998,11 @@ FEF_SS_01 =
 	}
 }
 
-FEF_MONINF_01 = 
+ESH_MONINF_01 = 
 {
 	name = "Monarchist Infantry Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 		OR = {
@@ -1235,11 +1235,11 @@ FEF_MONINF_01 =
 	}
 }
 
-FEF_MONMOB_01 = 
+ESH_MONMOB_01 = 
 {
 	name = "Monarchist Mobile Divisions"
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 		OR = {

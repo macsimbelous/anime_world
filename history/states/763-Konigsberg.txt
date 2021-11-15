@@ -6,8 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = DIF
-		controller = DIF
+		owner = AFR
+		controller = AFR
 		
 		victory_points = {
 			6332 10 
@@ -27,7 +27,7 @@ state={
 			}
 			air_base = 6
 		}
-		add_core_of = DIF
+		add_core_of = AFR
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

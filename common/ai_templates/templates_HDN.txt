@@ -1,7 +1,7 @@
-armor_HDN = {
+armor_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -24,7 +24,7 @@ armor_HDN = {
 	
 	match_to_count = 0.5
 	
-	light_armor_default_HDN = {
+	light_armor_default_BRL = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -107,12 +107,12 @@ armor_HDN = {
 		}
 		
 		replace_at_match = 0.4
-		replace_with = medium_armor_default_HDN
+		replace_with = medium_armor_default_BRL
 		target_min_match = 0.5
 	}
 
 
-	heavy_armor_default_HDN = {
+	heavy_armor_default_BRL = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -209,11 +209,11 @@ armor_HDN = {
 		}
 		
 		replace_at_match = 0.4
-		replace_with = modern_armor_default_HDN
+		replace_with = modern_armor_default_BRL
 		target_min_match = 0.5
 	}
 
-	medium_armor_default_HDN = {
+	medium_armor_default_BRL = {
 	
 		
 		upgrade_prio = {
@@ -310,11 +310,11 @@ armor_HDN = {
 		}
 		
 		replace_at_match = 0.8
-		replace_with = medium_armor_2_HDN
+		replace_with = medium_armor_2_BRL
 		target_min_match = 0.5
 	}
 
-	medium_armor_2_HDN = {
+	medium_armor_2_BRL = {
 	
 		
 		upgrade_prio = {
@@ -417,11 +417,11 @@ armor_HDN = {
 		}
 		
 		replace_at_match = 0.8
-		replace_with = modern_armor_default_HDN
+		replace_with = modern_armor_default_BRL
 		target_min_match = 0.5
 	}
 
-	modern_armor_default_HDN = {
+	modern_armor_default_BRL = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -512,10 +512,10 @@ armor_HDN = {
 	}
 }
 
-infantry_HDN = {
+infantry_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -532,7 +532,7 @@ infantry_HDN = {
 	
 	match_to_count = 0.45
 
-	infantry_default_HDN = {
+	infantry_default_BRL = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -622,10 +622,10 @@ infantry_HDN = {
 	}
 }
 
-mountaineers_HDN = {
+mountaineers_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -645,7 +645,7 @@ mountaineers_HDN = {
 	
 	match_to_count = 0.45
 
-	mountaineers_default_HDN = {
+	mountaineers_default_BRL = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -726,10 +726,10 @@ mountaineers_HDN = {
 	}
 }
 
-marines_HDN = {
+marines_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -749,7 +749,7 @@ marines_HDN = {
 	
 	match_to_count = 0.45
 
-	marine_default_HDN = {
+	marine_default_BRL = {
 		upgrade_prio = {
 			factor = 2
 
@@ -822,10 +822,10 @@ marines_HDN = {
 	}
 }
 
-paratrooper_HDN = {
+paratrooper_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -845,7 +845,7 @@ paratrooper_HDN = {
 	
 	match_to_count = 0.45
 
-	paratrooper_default_HDN = {
+	paratrooper_default_BRL = {
 			
 		upgrade_prio = {
 			factor = 2
@@ -929,10 +929,10 @@ paratrooper_HDN = {
 	
 }
 
-garrison_HDN = {
+garrison_BRL = {
 
 	available_for = {
-		HDN
+		BRL
 	}
 	
 	roles = {
@@ -950,7 +950,7 @@ garrison_HDN = {
 	
 	match_to_count = 0.8
 	
-	garrison_HDN = {
+	garrison_BRL = {
 	
 		upgrade_prio = {
 			factor = 2

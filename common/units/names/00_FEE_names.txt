@@ -1,4 +1,4 @@
-﻿FEE = {
+﻿ACL = {
 	submarine = {
 		prefix = ""
 		generic = { "Sous-Marin" }

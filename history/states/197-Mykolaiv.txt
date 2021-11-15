@@ -10,12 +10,12 @@ state={
 		victory_points = {
 			11683 3
 		}
-		owner = IUC
+		owner = DRL
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
 		}
-		add_core_of = IUC
+		add_core_of = DRL
 		
 		1939.1.1 = {
 			buildings = {

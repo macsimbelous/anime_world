@@ -8,8 +8,8 @@ state = {
 			6727
 			1
 		}
-		add_core_of = ALD
-		owner = ALD
+		add_core_of = ESK
+		owner = ESK
 		buildings = {
 			infrastructure = 4
 			dockyard = 1

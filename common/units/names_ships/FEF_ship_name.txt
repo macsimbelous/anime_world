@@ -1,8 +1,8 @@
 ﻿
-FEF_BB_HISTORICAL = {
+ESH_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser }
@@ -59,10 +59,10 @@ FEF_BB_HISTORICAL = {
 	}
 }
 
-FEF_BC_HISTORICAL = {
+ESH_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser }
@@ -84,10 +84,10 @@ FEF_BC_HISTORICAL = {
 	}
 }
 
-FEF_TB_HISTORICAL = {
+ESH_TB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_TB
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -127,10 +127,10 @@ FEF_TB_HISTORICAL = {
 	}
 }
 
-FEF_SS_HISTORICAL = {
+ESH_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -171,10 +171,10 @@ FEF_SS_HISTORICAL = {
 	}
 }
 
-FEF_CA_HISTORICAL = {
+ESH_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -219,10 +219,10 @@ FEF_CA_HISTORICAL = {
 	}
 }
 
-FEF_CL_HISTORICAL = {
+ESH_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -354,10 +354,10 @@ FEF_CL_HISTORICAL = {
 }
            
 
-FEF_DD_HISTORICAL = {
+ESH_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -395,10 +395,10 @@ FEF_DD_HISTORICAL = {
 	}
 }
 
-FEF_CV_HISTORICAL = {
+ESH_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -423,10 +423,10 @@ FEF_CV_HISTORICAL = {
 	}
 }
 
-FEF_THEME_FISH = {
+ESH_THEME_FISH = {
 	name = NAME_THEME_FISH
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -465,10 +465,10 @@ FEF_THEME_FISH = {
 	}
 }
 
-FEF_THEME_ANIMALS = {
+ESH_THEME_ANIMALS = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -532,10 +532,10 @@ FEF_THEME_ANIMALS = {
 	}
 }
 
-FEF_THEME_RIVERS = {
+ESH_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -578,10 +578,10 @@ FEF_THEME_RIVERS = {
 	}
 }
 
-FEF_THEME_FEFMANIC = {
-	name = NAME_THEME_FEFMANIC_MYTHOLOGY
+ESH_THEME_ESHMANIC = {
+	name = NAME_THEME_ESHMANIC_MYTHOLOGY
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -624,10 +624,10 @@ FEF_THEME_FEFMANIC = {
 	}
 }
 
-FEF_THEME_BATTLE = {
+ESH_THEME_BATTLE = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -664,10 +664,10 @@ FEF_THEME_BATTLE = {
 	}
 }
 
-FEF_BB_IMPERIAL = {
+ESH_BB_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BB
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -731,10 +731,10 @@ FEF_BB_IMPERIAL = {
 	}
 }
 
-FEF_BC_IMPERIAL = {
+ESH_BC_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BC
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -762,10 +762,10 @@ FEF_BC_IMPERIAL = {
 		13 = {"Prinz Heinrich"}
 	}
 }
-FEF_CA_IMPERIAL = {
+ESH_CA_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CA
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -810,10 +810,10 @@ FEF_CA_IMPERIAL = {
 	}
 }
 
-FEF_THEME_ANIMALS_IMPERIAL = {
+ESH_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 		
@@ -878,10 +878,10 @@ FEF_THEME_ANIMALS_IMPERIAL = {
 		49 = {"Geier"}
 	}
 }
-FEF_DD_IMPERIAL = {
+ESH_DD_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DD
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -996,10 +996,10 @@ FEF_DD_IMPERIAL = {
 	}
 }
 
-FEF_CV_IMPERIAL = {
+ESH_CV_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1023,10 +1023,10 @@ FEF_CV_IMPERIAL = {
 		11 = {"Max Immelman"}
 	}
 }
-FEF_THEME_FEFMANIC_IMPERIAL = {
-	name = NAME_THEME_FEFMANIC_MYTHOLOGY
+ESH_THEME_ESHMANIC_IMPERIAL = {
+	name = NAME_THEME_ESHMANIC_MYTHOLOGY
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1068,10 +1068,10 @@ FEF_THEME_FEFMANIC_IMPERIAL = {
 		26 = {"Sigi"}
 	}
 }
-FEF_THEME_BATTLE_IMPERIAL = {
+ESH_THEME_BATTLE_IMPERIAL = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1107,10 +1107,10 @@ FEF_THEME_BATTLE_IMPERIAL = {
 
 	}
 }
-FEF_THEME_FISH_IMPERIAL = {
+ESH_THEME_FISH_IMPERIAL = {
 	name = NAME_THEME_FISH
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1149,10 +1149,10 @@ FEF_THEME_FISH_IMPERIAL = {
 	}
 }
 
-FEF_SS_IMPERIAL = {
+ESH_SS_IMPERIAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1192,10 +1192,10 @@ FEF_SS_IMPERIAL = {
 		26 = {"U-%d"}
 	}
 }
-FEF_THEME_RIVERS_IMPERIAL = {
+ESH_THEME_RIVERS_IMPERIAL = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 
@@ -1237,10 +1237,10 @@ FEF_THEME_RIVERS_IMPERIAL = {
 	}
 }
 
-FEF_CL_IMPERIAL = {
+ESH_CL_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CL
 
-	for_countries = { FEF }
+	for_countries = { ESH }
 
 	can_use = { 
 

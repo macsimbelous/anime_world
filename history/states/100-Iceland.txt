@@ -9,7 +9,7 @@ state=
 	
 	history=
 	{
-		owner = HDN
+		owner = BRL
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 2
@@ -17,7 +17,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = HDN
+		add_core_of = BRL
 		
 	}
 	provinces=

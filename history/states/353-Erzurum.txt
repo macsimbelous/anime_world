@@ -4,7 +4,7 @@ state={
 	name="STATE_353"
 
 	history={
-		owner = FTA
+		owner = AST
 		victory_points = {
 			11853 3
 		}
@@ -21,7 +21,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = FTA
+		add_core_of = AST
 	}
 
 	provinces={
